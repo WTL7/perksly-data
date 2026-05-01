@@ -44,4 +44,4 @@ If this policy changes in a future version of the app, we will update the effect
 
 ## Contact
 
-Questions about this policy? Open an issue on the public [perksly-data repository](https://github.com/WTL7/perksly-data/issues) or contact the developer through the App Store listing.
+Questions about this policy? Email the developer at [tanning.impacts.5v@icloud.com](mailto:tanning.impacts.5v@icloud.com), open an issue on the public [perksly-data repository](https://github.com/WTL7/perksly-data/issues), or use the in-app contact link.
