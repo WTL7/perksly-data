@@ -1,5 +1,5 @@
 {
-  "version": "2026.04",
+  "version": "2026.05",
   "cards": [
     {
       "id": "amex_platinum_personal",
@@ -10,8 +10,8 @@
         {
           "id": "amex_plat_hotel_credit",
           "name": "Prepaid Hotel Credit",
-          "description": "Up to $300 back in statement credits each half-year on prepaid Fine Hotels + Resorts\u00ae or The Hotel Collection bookings ($600/year total).",
-          "value_amount": 600.0,
+          "description": "Up to $350 back in statement credits each half-year on prepaid Fine Hotels + Resorts\u00ae or The Hotel Collection bookings ($700/year total).",
+          "value_amount": 700.0,
           "currency_symbol": "$",
           "reset_frequency": "semi_annual",
           "reset_rule": "calendar_year",
