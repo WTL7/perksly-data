@@ -1,5 +1,5 @@
 {
-  "version": "2026.06",
+  "version": "2026.07",
   "cards": [
     {
       "id": "amex_platinum_personal",
@@ -2020,14 +2020,14 @@
         {
           "id": "vx_travel_credit",
           "name": "Annual Travel Credit",
-          "description": "TEST: $400 credit for bookings made through Capital One Travel portal.",
-          "value_amount": 400.0,
+          "description": "$300 credit for bookings made through Capital One Travel portal.",
+          "value_amount": 300.0,
           "currency_symbol": "$",
           "reset_frequency": "annual",
           "reset_rule": "card_anniversary",
           "category": "airline",
           "is_enrollment_required": false,
-          "notes": "TEST — credit applied at checkout in the portal."
+          "notes": "Credit is applied at checkout in the portal."
         },
         {
           "id": "vx_global_entry",
@@ -2039,18 +2039,6 @@
           "reset_rule": "transaction_date",
           "category": "other",
           "notes": "Resets 4 years after you use it."
-        },
-        {
-          "id": "vx_test_dining",
-          "name": "TEST Dining Credit",
-          "description": "TEST: $50/year statement credit at participating restaurants. This is a test entry — will be removed after Phase 3 verification.",
-          "value_amount": 50.0,
-          "currency_symbol": "$",
-          "reset_frequency": "annual",
-          "reset_rule": "calendar_year",
-          "category": "dining",
-          "is_enrollment_required": false,
-          "notes": "TEST — remove."
         }
       ],
       "perks": [
