@@ -1,5 +1,5 @@
 {
-  "version": "2026.08",
+  "version": "2026.09",
   "cards": [
     {
       "id": "amex_platinum_personal",
@@ -2063,6 +2063,58 @@
           "name": "Extended Warranty",
           "description": "Adds 1 year to U.S. manufacturer warranties of 3 years or less.",
           "icon": "shield.lefthalf.filled"
+        }
+      ]
+    },
+    {
+      "id": "chase_freedom_classic",
+      "name": "Chase Freedom\u00ae",
+      "issuer": "Chase",
+      "image_asset_name": "card_chase_freedom",
+      "benefits": [
+        {
+          "id": "chase_freedom_classic_quarterly",
+          "name": "Quarterly Bonus Category Activation",
+          "description": "Q2 2026 (Apr\u2013Jun): Amazon, Whole Foods Market, Chase Travel, and donations to Feeding America. Earn 5% on up to $1,500 combined ($75 max bonus this quarter). Activate by June 14, 2026.",
+          "value_amount": 300.0,
+          "currency_symbol": "$",
+          "reset_frequency": "quarterly",
+          "reset_rule": "calendar_year",
+          "category": "other",
+          "is_enrollment_required": true,
+          "notes": "Categories rotate quarterly and use the same calendar as Chase Freedom Flex. $1,500 cap is per quarter; rolls over to 1% after cap. Closed to new applicants since September 2020 \u2014 existing cardholders only."
+        }
+      ],
+      "perks": [
+        {
+          "name": "Trip Cancellation & Interruption Insurance",
+          "description": "Up to $1,500 per person and $6,000 per trip for prepaid, non-refundable travel. Visa Signature variants only.",
+          "icon": "shield.lefthalf.filled"
+        },
+        {
+          "name": "Auto Rental CDW",
+          "description": "Secondary coverage on eligible rentals charged to the card when you decline the rental company's collision damage waiver.",
+          "icon": "car.fill"
+        },
+        {
+          "name": "Purchase Protection",
+          "description": "Up to $500 per claim ($50,000 per account) for new purchases against damage or theft for 120 days from purchase.",
+          "icon": "bag.fill"
+        },
+        {
+          "name": "Extended Warranty",
+          "description": "Adds 1 year to U.S. manufacturer warranties of 3 years or less.",
+          "icon": "checkmark.shield.fill"
+        },
+        {
+          "name": "Zero Liability Protection",
+          "description": "You are not responsible for unauthorized charges made with your card or account information.",
+          "icon": "lock.shield.fill"
+        },
+        {
+          "name": "Free FICO Score",
+          "description": "View your FICO Score for free in your Chase account.",
+          "icon": "gift.fill"
         }
       ]
     },
