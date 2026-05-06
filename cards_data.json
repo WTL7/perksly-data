@@ -1,5 +1,5 @@
 {
-  "version": "2026.07",
+  "version": "2026.08",
   "cards": [
     {
       "id": "amex_platinum_personal",
@@ -120,7 +120,7 @@
         {
           "id": "amex_plat_saks",
           "name": "Saks Fifth Avenue Credit",
-          "description": "Get up to $50 in statement credits from January through June, and up to $50 from July through December.",
+          "description": "Up to $50 in statement credits Jan\u2013Jun and $50 Jul\u2013Dec. NOTE: Amex is discontinuing this credit after June 30, 2026 \u2014 use it before then.",
           "value_amount": 100.0,
           "currency_symbol": "$",
           "reset_frequency": "semi_annual",
@@ -228,8 +228,8 @@
         {
           "id": "amex_plat_clear",
           "name": "CLEAR\u00ae Plus Credit",
-          "description": "Cover the cost of a CLEAR Plus membership.",
-          "value_amount": 199.0,
+          "description": "Cover the cost of a CLEAR Plus membership ($209/year as of 2026).",
+          "value_amount": 209.0,
           "currency_symbol": "$",
           "reset_frequency": "annual",
           "reset_rule": "calendar_year",
@@ -328,6 +328,61 @@
           "name": "Platinum Concierge",
           "description": "24/7 access to a dedicated concierge for travel, dining, and entertainment requests.",
           "icon": "phone.circle.fill"
+        },
+        {
+          "name": "Cell Phone Protection",
+          "description": "Up to $800 per claim for damage or theft (max 2 claims per 12 months, $50 deductible). Activated by paying your monthly cell phone bill with the card.",
+          "icon": "iphone"
+        },
+        {
+          "name": "Purchase Protection",
+          "description": "Reimbursement for items damaged, lost, or stolen within 90 days of purchase, up to $10,000 per incident and $50,000 per calendar year.",
+          "icon": "shield.lefthalf.filled"
+        },
+        {
+          "name": "Return Protection",
+          "description": "Up to $300 per item and $1,000 per calendar year when the merchant will not accept a return within 90 days of purchase.",
+          "icon": "arrow.uturn.backward.circle.fill"
+        },
+        {
+          "name": "Extended Warranty Protection",
+          "description": "Adds up to one extra year to U.S. manufacturer warranties of 5 years or less. Up to $10,000 per item, $50,000 per calendar year.",
+          "icon": "checkmark.shield.fill"
+        },
+        {
+          "name": "Auto Rental Collision Damage Waiver (Secondary)",
+          "description": "Secondary coverage up to $75,000 for theft and collision damage on rental cars when you decline the rental company's collision damage waiver and pay with the card.",
+          "icon": "car.fill"
+        },
+        {
+          "name": "Fine Hotels + Resorts Benefits",
+          "description": "On every FHR booking via Amex Travel: complimentary daily breakfast for 2, room upgrade (when available), 4 PM guaranteed late checkout, noon early check-in (when available), free Wi-Fi, and a $100 property amenity (e.g., dining, spa, resort credit).",
+          "icon": "bed.double.fill"
+        },
+        {
+          "name": "The Hotel Collection Benefits",
+          "description": "On 2+ night stays booked via Amex Travel: room upgrade (when available) and a $100 property amenity credit.",
+          "icon": "bed.double.fill"
+        },
+        {
+          "name": "Trip Delay Insurance",
+          "description": "Reimbursement for reasonable expenses (meals, lodging, toiletries) when a covered trip is delayed more than 6 hours, up to $500 per covered trip.",
+          "icon": "clock.badge.exclamationmark.fill"
+        },
+        {
+          "name": "Baggage Insurance Plan",
+          "description": "Coverage for lost, damaged, or stolen luggage when the full common-carrier fare is charged to the card: up to $2,000 for checked baggage and $3,000 combined for carry-on per covered person.",
+          "icon": "suitcase.fill"
+        },
+        {
+          "name": "Premium Global Assist Hotline",
+          "description": "24/7 access to medical, legal, financial, and other emergency coordination assistance when traveling more than 100 miles from home.",
+          "icon": "lifepreserver"
+        },
+        {
+          "name": "Global Dining Access by Resy",
+          "description": "Members-only reservations, exclusive culinary events, and curated dining experiences at top restaurants via Resy.",
+          "icon": "fork.knife"
         }
       ]
     },
@@ -1968,14 +2023,14 @@
         {
           "id": "chase_freedom_flex_quarterly",
           "name": "Quarterly Bonus Category Activation",
-          "description": "Up to $75 per quarter ($300/year) \u2014 activate each quarter to earn 5% cash back on up to $1,500 in combined bonus category purchases.",
+          "description": "Q2 2026 (Apr\u2013Jun): Amazon, Whole Foods Market, Chase Travel, and donations to Feeding America. Earn 5% on up to $1,500 combined ($75 max bonus this quarter). Activate by June 14, 2026.",
           "value_amount": 300.0,
           "currency_symbol": "$",
           "reset_frequency": "quarterly",
           "reset_rule": "calendar_year",
           "category": "other",
           "is_enrollment_required": true,
-          "notes": "Max quarterly bonus is 5% on $1,500 = $75 per quarter (annual total $300). Categories rotate quarterly. Activation is retroactive if done mid-quarter."
+          "notes": "Categories rotate quarterly. Activation is retroactive within the quarter once enrolled. $1,500 cap is per quarter; rolls over to 1% after cap."
         }
       ],
       "perks": [
@@ -9976,7 +10031,20 @@
       "name": "Discover it\u00ae Cash Back",
       "issuer": "Discover",
       "image_asset_name": "card_discover_it_cash_back",
-      "benefits": [],
+      "benefits": [
+        {
+          "id": "discover_it_quarterly",
+          "name": "Quarterly 5% Cash Back Category",
+          "description": "Q2 2026 (Apr\u2013Jun): Restaurants and Home Improvement Stores. Earn 5% on up to $1,500 in combined spending ($75 max bonus). Must activate each quarter via your Discover account.",
+          "value_amount": 75.0,
+          "currency_symbol": "$",
+          "reset_frequency": "quarterly",
+          "reset_rule": "calendar_year",
+          "category": "other",
+          "is_enrollment_required": true,
+          "notes": "Categories rotate quarterly. Activation is not retroactive \u2014 only purchases made after activation count. $1,500 spending cap is per quarter; standard 1% applies above cap."
+        }
+      ],
       "perks": [
         {
           "name": "5% Quarterly Bonus Categories",
