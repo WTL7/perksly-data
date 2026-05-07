@@ -1,5 +1,5 @@
 {
-  "version": "2026.10",
+  "version": "2026.11",
   "cards": [
     {
       "id": "amex_platinum_personal",
@@ -10151,8 +10151,8 @@
         {
           "id": "discover_it_quarterly",
           "name": "Quarterly 5% Cash Back Category",
-          "description": "Q2 2026 (Apr\u2013Jun): Restaurants and Home Improvement Stores. Earn 5% on up to $1,500 in combined spending ($75 max bonus). Must activate each quarter via your Discover account.",
-          "value_amount": 75.0,
+          "description": "Up to $75 cash-back bonus per quarter ($300/year max). Q2 2026 (Apr\u2013Jun): Restaurants and Home Improvement Stores. Earn 5% on up to $1,500 in combined spending each quarter (then 1%). Must activate each quarter via your Discover account.",
+          "value_amount": 300.0,
           "currency_symbol": "$",
           "reset_frequency": "quarterly",
           "reset_rule": "calendar_year",
