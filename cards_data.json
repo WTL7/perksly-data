@@ -1,5 +1,5 @@
 {
-  "version": "2026.09",
+  "version": "2026.10",
   "cards": [
     {
       "id": "amex_platinum_personal",
@@ -5070,6 +5070,70 @@
           "name": "Extended Warranty",
           "description": "Adds 1 year to U.S. manufacturer warranties of 3 years or less.",
           "icon": "shield.lefthalf.filled"
+        }
+      ]
+    },
+    {
+      "id": "chase_amazon_prime_visa",
+      "name": "Prime Visa",
+      "issuer": "Chase",
+      "image_asset_name": "card_chase_amazon_prime_visa",
+      "benefits": [],
+      "perks": [
+        {
+          "name": "5% Back at Amazon & Whole Foods (Prime Members)",
+          "description": "5% back as Amazon Reward Points at Amazon.com, Amazon Fresh, and Whole Foods Market with an eligible Prime membership. Drops to 3% if Prime is not active.",
+          "icon": "gift.fill"
+        },
+        {
+          "name": "5% on Chase Travel (Prime Members)",
+          "description": "5% back on travel booked through Chase Travel with an eligible Prime membership.",
+          "icon": "gift.fill"
+        },
+        {
+          "name": "2% at Restaurants, Gas & Local Transit",
+          "description": "2% back as Amazon Reward Points at restaurants, gas stations, and on local transit and commuting (including rideshare).",
+          "icon": "gift.fill"
+        },
+        {
+          "name": "Rotating 10%+ Bonus Categories",
+          "description": "Eligible Prime cardmembers earn 10% back or more on a rotating selection of items and categories on Amazon.com.",
+          "icon": "gift.fill"
+        },
+        {
+          "name": "Reward Redemption at Amazon",
+          "description": "Redeem points instantly during checkout on Amazon.com \u2014 your rewards balance is visible at checkout.",
+          "icon": "creditcard"
+        },
+        {
+          "name": "No Annual Fee",
+          "description": "No annual credit card fee. (Prime membership separately required to earn the 5% rate.)",
+          "icon": "lock.shield.fill"
+        },
+        {
+          "name": "No Foreign Transaction Fees",
+          "description": "No foreign transaction fees on purchases made outside the U.S.",
+          "icon": "globe"
+        },
+        {
+          "name": "Trip Cancellation & Interruption",
+          "description": "Up to $1,500 per person, $6,000 per trip for prepaid, non-refundable travel.",
+          "icon": "shield.lefthalf.filled"
+        },
+        {
+          "name": "Auto Rental CDW",
+          "description": "Secondary coverage on eligible rentals charged to the card.",
+          "icon": "car.fill"
+        },
+        {
+          "name": "Purchase Protection",
+          "description": "Coverage for new purchases against damage or theft for 120 days.",
+          "icon": "bag.fill"
+        },
+        {
+          "name": "Extended Warranty",
+          "description": "Adds 1 year to U.S. manufacturer warranties of 3 years or less.",
+          "icon": "checkmark.shield.fill"
         }
       ]
     },
@@ -11632,6 +11696,45 @@
           "name": "No Foreign Transaction Fees",
           "description": "No fees on purchases made outside the U.S.",
           "icon": "globe"
+        }
+      ]
+    },
+    {
+      "id": "synchrony_tjx_rewards_platinum_mastercard",
+      "name": "TJX Rewards\u00ae Platinum Mastercard\u00ae",
+      "issuer": "Synchrony Bank",
+      "image_asset_name": "card_synchrony_tjx_rewards_platinum_mastercard",
+      "benefits": [],
+      "perks": [
+        {
+          "name": "5x Points at TJX Family Stores",
+          "description": "5 points per $1 at T.J. Maxx, Marshalls, HomeGoods, Homesense, Sierra, and their websites. Every 1,000 points = a $10 Rewards Certificate.",
+          "icon": "gift.fill"
+        },
+        {
+          "name": "2x Points on Gas, Grocery & Restaurants",
+          "description": "2 points per $1 at gas stations, grocery stores, and restaurants. Mastercard variant only.",
+          "icon": "gift.fill"
+        },
+        {
+          "name": "1x Points Everywhere Else",
+          "description": "1 point per $1 on all other purchases anywhere Mastercard is accepted.",
+          "icon": "gift.fill"
+        },
+        {
+          "name": "No Annual Fee",
+          "description": "No annual credit card fee.",
+          "icon": "lock.shield.fill"
+        },
+        {
+          "name": "New Cardholder First-Purchase Discount",
+          "description": "Eligible new cardholders may receive a 10% off coupon for their first purchase online or in store.",
+          "icon": "gift.fill"
+        },
+        {
+          "name": "Cardmember Shopping Events",
+          "description": "Invitations to exclusive in-store and online shopping events ahead of public sales.",
+          "icon": "star.fill"
         }
       ]
     }
