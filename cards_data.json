@@ -1,5 +1,5 @@
 {
-  "version": "2026.12",
+  "version": "2026.13",
   "cards": [
     {
       "id": "amex_platinum_personal",
@@ -10603,6 +10603,56 @@
           "name": "$0 Liability",
           "description": "Zero-liability protection on unauthorized transactions.",
           "icon": "lock.shield.fill"
+        }
+      ]
+    },
+    {
+      "id": "fidelity_rewards_visa_signature",
+      "name": "Fidelity\u00ae Rewards Visa Signature\u00ae Card",
+      "issuer": "Fidelity",
+      "image_asset_name": "card_fidelity_visa",
+      "annual_fee": 0,
+      "benefits": [],
+      "perks": [
+        {
+          "name": "2% Cash Back (Fidelity Deposit)",
+          "description": "Unlimited 2 points per $1 on all eligible purchases. Worth 2% when redeemed as a deposit into an eligible Fidelity account; redemption value differs for travel, gift cards, or statement credit.",
+          "icon": "dollarsign.circle.fill"
+        },
+        {
+          "name": "Global Entry / TSA PreCheck Credit",
+          "description": "Earn up to $100 in Reward Points when you apply for Global Entry or TSA PreCheck and pay with the card.",
+          "icon": "airplane.circle.fill"
+        },
+        {
+          "name": "Visa Signature Concierge",
+          "description": "24/7 access to a Visa Signature Concierge for travel, dining, and event-booking assistance.",
+          "icon": "bell.fill"
+        },
+        {
+          "name": "Auto Rental CDW",
+          "description": "Secondary auto rental collision damage waiver on eligible rentals charged to the card.",
+          "icon": "car.fill"
+        },
+        {
+          "name": "Travel & Emergency Assistance",
+          "description": "24/7 access to medical, legal, and travel referrals when more than 100 miles from home.",
+          "icon": "cross.case.fill"
+        },
+        {
+          "name": "Lost Luggage Reimbursement",
+          "description": "Up to $3,000 per trip when the common carrier ticket is charged to the card.",
+          "icon": "suitcase.fill"
+        },
+        {
+          "name": "Purchase Security",
+          "description": "Replace, repair, or reimburse eligible items up to $500 per claim for 90 days from purchase.",
+          "icon": "shield.lefthalf.filled"
+        },
+        {
+          "name": "No Foreign Transaction Fees",
+          "description": "No fees on purchases made outside the U.S. (changed September 2023).",
+          "icon": "globe"
         }
       ]
     },
