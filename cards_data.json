@@ -1,11 +1,12 @@
 {
-  "version": "2026.11",
+  "version": "2026.12",
   "cards": [
     {
       "id": "amex_platinum_personal",
       "name": "The Platinum Card\u00ae from American Express",
       "issuer": "American Express",
       "image_asset_name": "card_amex_plat",
+      "annual_fee": 895,
       "benefits": [
         {
           "id": "amex_plat_hotel_credit",
@@ -391,6 +392,7 @@
       "name": "American Express\u00ae Gold Card",
       "issuer": "American Express",
       "image_asset_name": "card_amex_gold",
+      "annual_fee": 325,
       "benefits": [
         {
           "id": "amex_gold_uber",
@@ -481,6 +483,7 @@
       "name": "American Express\u00ae Green Card",
       "issuer": "American Express",
       "image_asset_name": "card_amex_green",
+      "annual_fee": 150,
       "benefits": [
         {
           "id": "amex_green_clear",
@@ -533,6 +536,7 @@
       "name": "The Business Platinum Card\u00ae from American Express",
       "issuer": "American Express",
       "image_asset_name": "card_amex_biz_plat",
+      "annual_fee": 895,
       "benefits": [
         {
           "id": "amex_biz_plat_airline_fee",
@@ -707,6 +711,7 @@
       "name": "American Express\u00ae Business Gold Card",
       "issuer": "American Express",
       "image_asset_name": "card_amex_biz_gold",
+      "annual_fee": 375,
       "benefits": [
         {
           "id": "amex_biz_gold_flex_credit",
@@ -789,6 +794,7 @@
       "name": "Hilton Honors American Express Aspire Card",
       "issuer": "American Express",
       "image_asset_name": "card_amex_hilton_aspire",
+      "annual_fee": 550,
       "benefits": [
         {
           "id": "amex_hilton_aspire_resort",
@@ -894,6 +900,7 @@
       "name": "Delta SkyMiles\u00ae Reserve American Express Card",
       "issuer": "American Express",
       "image_asset_name": "card_amex_delta_reserve",
+      "annual_fee": 650,
       "benefits": [
         {
           "id": "amex_delta_reserve_resy",
@@ -992,6 +999,7 @@
       "name": "Delta SkyMiles\u00ae Platinum American Express Card",
       "issuer": "American Express",
       "image_asset_name": "card_amex_delta_plat",
+      "annual_fee": 350,
       "benefits": [
         {
           "id": "amex_delta_plat_resy",
@@ -1090,6 +1098,7 @@
       "name": "Marriott Bonvoy Brilliant\u00ae American Express\u00ae Card",
       "issuer": "American Express",
       "image_asset_name": "card_amex_marriott_brilliant",
+      "annual_fee": 650,
       "benefits": [
         {
           "id": "amex_marriott_brilliant_dining",
@@ -1176,6 +1185,7 @@
       "name": "Blue Cash Preferred\u00ae Card from American Express",
       "issuer": "American Express",
       "image_asset_name": "card_amex_bcp",
+      "annual_fee": 95,
       "benefits": [
         {
           "id": "amex_bcp_disney",
@@ -1237,6 +1247,7 @@
       "name": "Chase Sapphire Reserve\u00ae",
       "issuer": "Chase",
       "image_asset_name": "card_chase_csr",
+      "annual_fee": 795,
       "benefits": [
         {
           "id": "csr_travel_credit",
@@ -1425,6 +1436,7 @@
       "name": "Chase Sapphire Preferred\u00ae Card",
       "issuer": "Chase",
       "image_asset_name": "card_chase_csp",
+      "annual_fee": 95,
       "benefits": [
         {
           "id": "csp_hotel_credit",
@@ -1517,6 +1529,7 @@
       "name": "United\u2120 Explorer Card",
       "issuer": "Chase",
       "image_asset_name": "card_chase_united_explorer",
+      "annual_fee": 150,
       "benefits": [
         {
           "id": "chase_united_exp_hotel",
@@ -1649,6 +1662,7 @@
       "name": "United Club\u2120 Infinite Card",
       "issuer": "Chase",
       "image_asset_name": "card_chase_united_club",
+      "annual_fee": 695,
       "benefits": [
         {
           "id": "chase_united_club_hotel",
@@ -1835,6 +1849,7 @@
       "name": "IHG One Rewards Premier Credit Card",
       "issuer": "Chase",
       "image_asset_name": "card_chase_ihg_premier",
+      "annual_fee": 99,
       "benefits": [
         {
           "id": "chase_ihg_travelbank",
@@ -1933,6 +1948,7 @@
       "name": "Marriott Bonvoy Boundless\u00ae Credit Card",
       "issuer": "Chase",
       "image_asset_name": "card_chase_marriott_boundless",
+      "annual_fee": 95,
       "benefits": [
         {
           "id": "chase_marriott_boundless_airline",
@@ -2019,6 +2035,7 @@
       "name": "Chase Freedom Flex\u2120",
       "issuer": "Chase",
       "image_asset_name": "card_chase_freedom_flex",
+      "annual_fee": 0,
       "benefits": [
         {
           "id": "chase_freedom_flex_quarterly",
@@ -2071,6 +2088,7 @@
       "name": "Chase Freedom\u00ae",
       "issuer": "Chase",
       "image_asset_name": "card_chase_freedom",
+      "annual_fee": 0,
       "benefits": [
         {
           "id": "chase_freedom_classic_quarterly",
@@ -2123,6 +2141,7 @@
       "name": "Capital One Venture X Rewards",
       "issuer": "Capital One",
       "image_asset_name": "card_capone_vx",
+      "annual_fee": 395,
       "benefits": [
         {
           "id": "vx_travel_credit",
@@ -2216,6 +2235,7 @@
       "name": "Capital One Venture Rewards Credit Card",
       "issuer": "Capital One",
       "image_asset_name": "card_capone_venture",
+      "annual_fee": 95,
       "benefits": [
         {
           "id": "capone_venture_global_entry",
@@ -2273,6 +2293,7 @@
       "name": "Citi Strata Premier\u2120 Card",
       "issuer": "Citi",
       "image_asset_name": "card_citi_strata_premier",
+      "annual_fee": 95,
       "benefits": [
         {
           "id": "citi_strata_hotel",
@@ -2330,6 +2351,7 @@
       "name": "Citi\u00ae / AAdvantage\u00ae Executive World Elite Mastercard\u00ae",
       "issuer": "Citi",
       "image_asset_name": "card_citi_aa_executive",
+      "annual_fee": 595,
       "benefits": [
         {
           "id": "citi_aa_exec_grubhub",
@@ -2435,6 +2457,7 @@
       "name": "U.S. Bank Altitude\u2122 Reserve Visa Infinite\u00ae Card",
       "issuer": "U.S. Bank",
       "image_asset_name": "card_usbank_altitude_reserve",
+      "annual_fee": 400,
       "benefits": [
         {
           "id": "usbank_alt_reserve_travel",
@@ -2534,6 +2557,7 @@
       "name": "Bilt Obsidian Card",
       "issuer": "Bilt",
       "image_asset_name": "card_bilt_obsidian",
+      "annual_fee": 95,
       "benefits": [
         {
           "id": "bilt_obsidian_hotel",
@@ -2588,6 +2612,7 @@
       "name": "Bilt Palladium Card",
       "issuer": "Bilt",
       "image_asset_name": "card_bilt_palladium",
+      "annual_fee": 495,
       "benefits": [
         {
           "id": "bilt_palladium_hotel",
@@ -2694,6 +2719,7 @@
       "name": "Bank of America\u00ae Premium Rewards\u00ae Credit Card",
       "issuer": "Bank of America",
       "image_asset_name": "card_bofa_premium_rewards",
+      "annual_fee": 95,
       "benefits": [
         {
           "id": "bofa_pr_airline",
@@ -2778,6 +2804,7 @@
       "name": "Wells Fargo Autograph Journey\u2120 Card",
       "issuer": "Wells Fargo",
       "image_asset_name": "card_wf_autograph_journey",
+      "annual_fee": 95,
       "benefits": [
         {
           "id": "wf_aj_airline",
@@ -2840,6 +2867,7 @@
       "name": "The World of Hyatt Credit Card",
       "issuer": "Chase",
       "image_asset_name": "card_chase_world_of_hyatt",
+      "annual_fee": 95,
       "benefits": [
         {
           "id": "chase_woh_free_night",
@@ -2907,6 +2935,7 @@
       "name": "World of Hyatt Business Credit Card",
       "issuer": "Chase",
       "image_asset_name": "card_chase_world_of_hyatt_business",
+      "annual_fee": 199,
       "benefits": [
         {
           "id": "chase_woh_biz_hyatt_credit",
@@ -2969,6 +2998,7 @@
       "name": "Marriott Bonvoy Bevy\u00ae American Express\u00ae Card",
       "issuer": "American Express",
       "image_asset_name": "card_amex_marriott_bevy",
+      "annual_fee": 250,
       "benefits": [],
       "perks": [
         {
@@ -3018,6 +3048,7 @@
       "name": "Marriott Bonvoy Business\u00ae American Express\u00ae Card",
       "issuer": "American Express",
       "image_asset_name": "card_amex_marriott_business",
+      "annual_fee": 125,
       "benefits": [
         {
           "id": "amex_marriott_business_free_night",
@@ -3080,6 +3111,7 @@
       "name": "Marriott Bonvoy Bold\u00ae Credit Card",
       "issuer": "Chase",
       "image_asset_name": "card_chase_marriott_bold",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -3129,6 +3161,7 @@
       "name": "Hilton Honors American Express Surpass\u00ae Card",
       "issuer": "American Express",
       "image_asset_name": "card_amex_hilton_surpass",
+      "annual_fee": 150,
       "benefits": [
         {
           "id": "amex_hilton_surpass_credit",
@@ -3186,6 +3219,7 @@
       "name": "Hilton Honors American Express Card",
       "issuer": "American Express",
       "image_asset_name": "card_amex_hilton_honors",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -3225,6 +3259,7 @@
       "name": "The Hilton Honors American Express Business Card",
       "issuer": "American Express",
       "image_asset_name": "card_amex_hilton_business",
+      "annual_fee": 195,
       "benefits": [
         {
           "id": "amex_hilton_business_credit",
@@ -3292,6 +3327,7 @@
       "name": "IHG One Rewards Premier Business Credit Card",
       "issuer": "Chase",
       "image_asset_name": "card_chase_ihg_premier_business",
+      "annual_fee": 99,
       "benefits": [
         {
           "id": "chase_ihg_premier_biz_free_night",
@@ -3383,6 +3419,7 @@
       "name": "IHG One Rewards Traveler Credit Card",
       "issuer": "Chase",
       "image_asset_name": "card_chase_ihg_traveler",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -3432,6 +3469,7 @@
       "name": "Wyndham Rewards\u00ae Earner\u2120 Card",
       "issuer": "Barclays",
       "image_asset_name": "card_barclays_wyndham_earner",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -3476,6 +3514,7 @@
       "name": "Choice Privileges\u00ae Select Mastercard\u00ae",
       "issuer": "Wells Fargo",
       "image_asset_name": "card_wf_choice_privileges_select",
+      "annual_fee": 95,
       "benefits": [
         {
           "id": "wf_choice_select_global_entry",
@@ -3533,6 +3572,7 @@
       "name": "Choice Privileges\u00ae Mastercard\u00ae",
       "issuer": "Wells Fargo",
       "image_asset_name": "card_wf_choice_privileges",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -3572,6 +3612,7 @@
       "name": "One Key+\u2122 Card",
       "issuer": "Wells Fargo",
       "image_asset_name": "card_wf_one_key_plus",
+      "annual_fee": 99,
       "benefits": [
         {
           "id": "wf_one_key_plus_global_entry",
@@ -3629,6 +3670,7 @@
       "name": "One Key\u2122 Card",
       "issuer": "Wells Fargo",
       "image_asset_name": "card_wf_one_key",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -3668,6 +3710,7 @@
       "name": "Delta SkyMiles\u00ae Blue American Express Card",
       "issuer": "American Express",
       "image_asset_name": "card_amex_delta_blue",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -3707,6 +3750,7 @@
       "name": "Delta SkyMiles\u00ae Gold American Express Card",
       "issuer": "American Express",
       "image_asset_name": "card_amex_delta_gold",
+      "annual_fee": 150,
       "benefits": [
         {
           "id": "amex_delta_gold_resy",
@@ -3777,6 +3821,7 @@
       "name": "Delta SkyMiles\u00ae Gold Business American Express Card",
       "issuer": "American Express",
       "image_asset_name": "card_amex_delta_gold_business",
+      "annual_fee": 150,
       "benefits": [
         {
           "id": "amex_delta_gold_biz_resy",
@@ -3846,6 +3891,7 @@
       "name": "Delta SkyMiles\u00ae Platinum Business American Express Card",
       "issuer": "American Express",
       "image_asset_name": "card_amex_delta_platinum_business",
+      "annual_fee": 350,
       "benefits": [
         {
           "id": "amex_delta_plat_biz_resy",
@@ -3944,6 +3990,7 @@
       "name": "Delta SkyMiles\u00ae Reserve Business American Express Card",
       "issuer": "American Express",
       "image_asset_name": "card_amex_delta_reserve_business",
+      "annual_fee": 650,
       "benefits": [
         {
           "id": "amex_delta_reserve_biz_resy",
@@ -4052,6 +4099,7 @@
       "name": "Blue Cash Everyday\u00ae Card from American Express",
       "issuer": "American Express",
       "image_asset_name": "card_amex_blue_cash_everyday",
+      "annual_fee": 0,
       "benefits": [
         {
           "id": "amex_bce_disney",
@@ -4111,6 +4159,7 @@
       "name": "The Blue Business\u00ae Plus Credit Card from American Express",
       "issuer": "American Express",
       "image_asset_name": "card_amex_blue_business_plus",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -4150,6 +4199,7 @@
       "name": "The American Express Blue Business Cash\u2122 Card",
       "issuer": "American Express",
       "image_asset_name": "card_amex_blue_business_cash",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -4189,6 +4239,7 @@
       "name": "Business Green Rewards Card from American Express",
       "issuer": "American Express",
       "image_asset_name": "card_amex_business_green",
+      "annual_fee": 95,
       "benefits": [],
       "perks": [
         {
@@ -4238,6 +4289,7 @@
       "name": "Graphite\u2122 Business Cash Unlimited Card",
       "issuer": "American Express",
       "image_asset_name": "card_amex_graphite_business",
+      "annual_fee": 295,
       "benefits": [
         {
           "id": "amex_graphite_oneap",
@@ -4305,6 +4357,7 @@
       "name": "Amazon Business American Express Card",
       "issuer": "American Express",
       "image_asset_name": "card_amex_amazon_business",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -4349,6 +4402,7 @@
       "name": "Amazon Business Prime American Express Card",
       "issuer": "American Express",
       "image_asset_name": "card_amex_amazon_business_prime",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -4398,6 +4452,7 @@
       "name": "Macy's American Express\u00ae Card",
       "issuer": "American Express",
       "image_asset_name": "card_amex_macys",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -4437,6 +4492,7 @@
       "name": "British Airways Visa Signature\u00ae Card",
       "issuer": "Chase",
       "image_asset_name": "card_chase_british_airways",
+      "annual_fee": 95,
       "benefits": [],
       "perks": [
         {
@@ -4491,6 +4547,7 @@
       "name": "Aer Lingus Visa Signature\u00ae Card",
       "issuer": "Chase",
       "image_asset_name": "card_chase_aer_lingus",
+      "annual_fee": 95,
       "benefits": [],
       "perks": [
         {
@@ -4535,6 +4592,7 @@
       "name": "Iberia Visa Signature\u00ae Card",
       "issuer": "Chase",
       "image_asset_name": "card_chase_iberia",
+      "annual_fee": 95,
       "benefits": [],
       "perks": [
         {
@@ -4579,6 +4637,7 @@
       "name": "Aeroplan\u00ae Credit Card",
       "issuer": "Chase",
       "image_asset_name": "card_chase_aeroplan",
+      "annual_fee": 95,
       "benefits": [],
       "perks": [
         {
@@ -4638,6 +4697,7 @@
       "name": "Disney\u00ae Premier Visa\u00ae Card",
       "issuer": "Chase",
       "image_asset_name": "card_chase_disney_premier",
+      "annual_fee": 49,
       "benefits": [],
       "perks": [
         {
@@ -4687,6 +4747,7 @@
       "name": "Chase Slate\u00ae",
       "issuer": "Chase",
       "image_asset_name": "card_chase_slate",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -4721,6 +4782,7 @@
       "name": "Chase Freedom Unlimited\u00ae",
       "issuer": "Chase",
       "image_asset_name": "card_chase_freedom_unlimited",
+      "annual_fee": 0,
       "benefits": [
         {
           "id": "chase_freedom_unlimited_doordash",
@@ -4784,6 +4846,7 @@
       "name": "Chase Freedom Rise\u00ae",
       "issuer": "Chase",
       "image_asset_name": "card_chase_freedom_rise",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -4833,6 +4896,7 @@
       "name": "Ink Business Cash\u00ae Credit Card",
       "issuer": "Chase",
       "image_asset_name": "card_chase_ink_cash",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -4877,6 +4941,7 @@
       "name": "Ink Business Unlimited\u00ae Credit Card",
       "issuer": "Chase",
       "image_asset_name": "card_chase_ink_unlimited",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -4916,6 +4981,7 @@
       "name": "Ink Business Preferred\u00ae Credit Card",
       "issuer": "Chase",
       "image_asset_name": "card_chase_ink_preferred",
+      "annual_fee": 95,
       "benefits": [],
       "perks": [
         {
@@ -4975,6 +5041,7 @@
       "name": "Ink Business Premier\u00ae Credit Card",
       "issuer": "Chase",
       "image_asset_name": "card_chase_ink_premier",
+      "annual_fee": 195,
       "benefits": [],
       "perks": [
         {
@@ -5034,6 +5101,7 @@
       "name": "Amazon Visa Credit Card",
       "issuer": "Chase",
       "image_asset_name": "card_chase_amazon_visa",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -5078,6 +5146,7 @@
       "name": "Prime Visa",
       "issuer": "Chase",
       "image_asset_name": "card_chase_amazon_prime_visa",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -5142,6 +5211,7 @@
       "name": "Prime Visa",
       "issuer": "Chase",
       "image_asset_name": "card_chase_prime_visa",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -5196,6 +5266,7 @@
       "name": "Instacart Mastercard\u00ae",
       "issuer": "Chase",
       "image_asset_name": "card_chase_instacart",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -5245,6 +5316,7 @@
       "name": "Southwest Rapid Rewards\u00ae Priority Credit Card",
       "issuer": "Chase",
       "image_asset_name": "card_chase_southwest_priority",
+      "annual_fee": 229,
       "benefits": [
         {
           "id": "chase_southwest_priority_travel_credit",
@@ -5324,6 +5396,7 @@
       "name": "Southwest Rapid Rewards\u00ae Premier Credit Card",
       "issuer": "Chase",
       "image_asset_name": "card_chase_southwest_premier",
+      "annual_fee": 149,
       "benefits": [],
       "perks": [
         {
@@ -5378,6 +5451,7 @@
       "name": "Southwest Rapid Rewards\u00ae Plus Credit Card",
       "issuer": "Chase",
       "image_asset_name": "card_chase_southwest_plus",
+      "annual_fee": 99,
       "benefits": [],
       "perks": [
         {
@@ -5422,6 +5496,7 @@
       "name": "Southwest\u00ae Rapid Rewards\u00ae Performance Business Credit Card",
       "issuer": "Chase",
       "image_asset_name": "card_chase_southwest_performance_business",
+      "annual_fee": 299,
       "benefits": [
         {
           "id": "chase_sw_perf_biz_inflight_credit",
@@ -5484,6 +5559,7 @@
       "name": "Southwest\u00ae Rapid Rewards\u00ae Premier Business Credit Card",
       "issuer": "Chase",
       "image_asset_name": "card_chase_southwest_premier_business",
+      "annual_fee": 149,
       "benefits": [],
       "perks": [
         {
@@ -5528,6 +5604,7 @@
       "name": "United Quest\u2120 Card",
       "issuer": "Chase",
       "image_asset_name": "card_chase_united_quest",
+      "annual_fee": 350,
       "benefits": [
         {
           "id": "chase_united_quest_travel_credit",
@@ -5644,6 +5721,7 @@
       "name": "United Gateway\u2120 Card",
       "issuer": "Chase",
       "image_asset_name": "card_chase_united_gateway",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -5688,6 +5766,7 @@
       "name": "United\u2120 Business Card",
       "issuer": "Chase",
       "image_asset_name": "card_chase_united_business",
+      "annual_fee": 150,
       "benefits": [
         {
           "id": "chase_united_biz_travel_credit",
@@ -5782,6 +5861,7 @@
       "name": "American Airlines AAdvantage\u00ae MileUp\u00ae",
       "issuer": "Citi",
       "image_asset_name": "card_citi_aa_mileup",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -5806,6 +5886,7 @@
       "name": "Citi\u00ae / AAdvantage\u00ae Platinum Select\u00ae World Elite Mastercard\u00ae",
       "issuer": "Citi",
       "image_asset_name": "card_citi_aa_platinum_select",
+      "annual_fee": 99,
       "benefits": [
         {
           "id": "citi_aa_plat_flight_discount",
@@ -5863,6 +5944,7 @@
       "name": "Citi\u00ae / AAdvantage\u00ae Globe\u2122 Mastercard\u00ae",
       "issuer": "Citi",
       "image_asset_name": "card_citi_aa_globe",
+      "annual_fee": 350,
       "benefits": [
         {
           "id": "citi_aa_globe_splurge",
@@ -5949,6 +6031,7 @@
       "name": "Citi\u00ae / AAdvantage Business\u2122 World Elite Mastercard\u00ae",
       "issuer": "Citi",
       "image_asset_name": "card_citi_aa_business",
+      "annual_fee": 99,
       "benefits": [],
       "perks": [
         {
@@ -5998,6 +6081,7 @@
       "name": "Citi Strata\u2120 Card",
       "issuer": "Citi",
       "image_asset_name": "card_citi_strata",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -6037,6 +6121,7 @@
       "name": "Citi Strata Elite\u2120 Card",
       "issuer": "Citi",
       "image_asset_name": "card_citi_strata_elite",
+      "annual_fee": 595,
       "benefits": [
         {
           "id": "citi_strata_elite_hotel",
@@ -6149,6 +6234,7 @@
       "name": "Citi Custom Cash\u00ae Card",
       "issuer": "Citi",
       "image_asset_name": "card_citi_custom_cash",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -6183,6 +6269,7 @@
       "name": "Citi Double Cash\u00ae Card",
       "issuer": "Citi",
       "image_asset_name": "card_citi_double_cash",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -6212,6 +6299,7 @@
       "name": "Citi\u00ae Diamond Preferred\u00ae Card",
       "issuer": "Citi",
       "image_asset_name": "card_citi_diamond_preferred",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -6241,6 +6329,7 @@
       "name": "Citi Simplicity\u00ae Card",
       "issuer": "Citi",
       "image_asset_name": "card_citi_simplicity",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -6270,6 +6359,7 @@
       "name": "Citi\u00ae Secured Mastercard\u00ae",
       "issuer": "Citi",
       "image_asset_name": "card_citi_secured",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -6299,6 +6389,7 @@
       "name": "Costco Anywhere Visa\u00ae Card by Citi",
       "issuer": "Citi",
       "image_asset_name": "card_citi_costco_anywhere",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -6343,6 +6434,7 @@
       "name": "My Best Buy Visa\u00ae Card",
       "issuer": "Citi",
       "image_asset_name": "card_citi_my_best_buy_visa",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -6372,6 +6464,7 @@
       "name": "Capital One Platinum Credit Card",
       "issuer": "Capital One",
       "image_asset_name": "card_capone_platinum",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -6406,6 +6499,7 @@
       "name": "Capital One Platinum Secured Credit Card",
       "issuer": "Capital One",
       "image_asset_name": "card_capone_platinum_secured",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -6440,6 +6534,7 @@
       "name": "Capital One Quicksilver Cash Rewards Credit Card",
       "issuer": "Capital One",
       "image_asset_name": "card_capone_quicksilver",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -6479,6 +6574,7 @@
       "name": "Capital One QuicksilverOne Cash Rewards Credit Card",
       "issuer": "Capital One",
       "image_asset_name": "card_capone_quicksilver_one",
+      "annual_fee": 39,
       "benefits": [],
       "perks": [
         {
@@ -6518,6 +6614,7 @@
       "name": "Capital One Quicksilver Secured Cash Rewards Credit Card",
       "issuer": "Capital One",
       "image_asset_name": "card_capone_quicksilver_secured",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -6552,6 +6649,7 @@
       "name": "Capital One Quicksilver Student Cash Rewards Credit Card",
       "issuer": "Capital One",
       "image_asset_name": "card_capone_quicksilver_student",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -6581,6 +6679,7 @@
       "name": "Capital One Savor Cash Rewards Credit Card",
       "issuer": "Capital One",
       "image_asset_name": "card_capone_savor",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -6620,6 +6719,7 @@
       "name": "Capital One SavorOne Cash Rewards Credit Card",
       "issuer": "Capital One",
       "image_asset_name": "card_capone_savor_one",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -6659,6 +6759,7 @@
       "name": "Capital One Savor Student Cash Rewards Credit Card",
       "issuer": "Capital One",
       "image_asset_name": "card_capone_savor_student",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -6688,6 +6789,7 @@
       "name": "Capital One\u00ae Spark\u00ae 1% Classic",
       "issuer": "Capital One",
       "image_asset_name": "card_capone_spark_classic",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -6722,6 +6824,7 @@
       "name": "Capital One Spark Cash Plus",
       "issuer": "Capital One",
       "image_asset_name": "card_capone_spark_cash_plus",
+      "annual_fee": 150,
       "benefits": [
         {
           "id": "capone_spark_cash_plus_annual_fee_credit",
@@ -6779,6 +6882,7 @@
       "name": "Capital One\u00ae Spark\u00ae Cash Select for Business",
       "issuer": "Capital One",
       "image_asset_name": "card_capone_spark_cash_select",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -6818,6 +6922,7 @@
       "name": "Capital One Venture Business",
       "issuer": "Capital One",
       "image_asset_name": "card_capone_venture_business",
+      "annual_fee": 95,
       "benefits": [],
       "perks": [
         {
@@ -6862,6 +6967,7 @@
       "name": "Capital One VentureOne Rewards Credit Card",
       "issuer": "Capital One",
       "image_asset_name": "card_capone_venture_one",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -6901,6 +7007,7 @@
       "name": "Capital One Venture X Business",
       "issuer": "Capital One",
       "image_asset_name": "card_capone_venture_x_business",
+      "annual_fee": 395,
       "benefits": [
         {
           "id": "vxb_travel_credit",
@@ -6999,6 +7106,7 @@
       "name": "Kohl's Credit Card",
       "issuer": "Capital One",
       "image_asset_name": "card_capone_kohls",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -7028,6 +7136,7 @@
       "name": "REI Co-op Mastercard\u00ae",
       "issuer": "Capital One",
       "image_asset_name": "card_capone_rei_coop",
+      "annual_fee": 0,
       "benefits": [
         {
           "id": "capone_rei_experience_credit",
@@ -7079,6 +7188,7 @@
       "name": "Atmos\u2122 Rewards Ascent Visa Signature\u00ae Credit Card",
       "issuer": "Bank of America",
       "image_asset_name": "card_bofa_atmos_ascent",
+      "annual_fee": 95,
       "benefits": [
         {
           "id": "bofa_atmos_ascent_companion",
@@ -7151,6 +7261,7 @@
       "name": "Bank of America Alaska Airlines Visa Business Card",
       "issuer": "Bank of America",
       "image_asset_name": "card_bofa_alaska_business",
+      "annual_fee": 95,
       "benefits": [
         {
           "id": "bofa_alaska_biz_companion",
@@ -7213,6 +7324,7 @@
       "name": "BankAmericard\u00ae Credit Card",
       "issuer": "Bank of America",
       "image_asset_name": "card_bofa_bankamericard",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -7242,6 +7354,7 @@
       "name": "BankAmericard\u00ae Secured Credit Card",
       "issuer": "Bank of America",
       "image_asset_name": "card_bofa_bankamericard_secured",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -7271,6 +7384,7 @@
       "name": "Bank of America\u00ae Customized Cash Rewards Credit Card",
       "issuer": "Bank of America",
       "image_asset_name": "card_bofa_customized_cash",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -7305,6 +7419,7 @@
       "name": "Bank of America\u00ae Customized Cash Rewards for Students",
       "issuer": "Bank of America",
       "image_asset_name": "card_bofa_customized_cash_student",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -7334,6 +7449,7 @@
       "name": "Bank of America\u00ae Unlimited Cash Rewards Credit Card",
       "issuer": "Bank of America",
       "image_asset_name": "card_bofa_unlimited_cash",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -7363,6 +7479,7 @@
       "name": "Bank of America\u00ae Unlimited Cash Rewards for Students",
       "issuer": "Bank of America",
       "image_asset_name": "card_bofa_unlimited_cash_student",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -7387,6 +7504,7 @@
       "name": "Bank of America\u00ae Travel Rewards Credit Card",
       "issuer": "Bank of America",
       "image_asset_name": "card_bofa_travel_rewards",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -7426,6 +7544,7 @@
       "name": "Bank of America\u00ae Travel Rewards for Students",
       "issuer": "Bank of America",
       "image_asset_name": "card_bofa_travel_rewards_student",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -7460,6 +7579,7 @@
       "name": "Bank of America\u00ae Allways Rewards Visa\u00ae Credit Card",
       "issuer": "Bank of America",
       "image_asset_name": "card_bofa_allways_rewards",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -7489,6 +7609,7 @@
       "name": "Bank of America\u00ae Business Advantage Customized Cash Rewards Credit Card",
       "issuer": "Bank of America",
       "image_asset_name": "card_bofa_business_customized_cash",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -7528,6 +7649,7 @@
       "name": "Bank of America\u00ae Business Advantage Travel Rewards Credit Card",
       "issuer": "Bank of America",
       "image_asset_name": "card_bofa_business_travel_rewards",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -7572,6 +7694,7 @@
       "name": "Bank of America\u00ae Platinum Plus\u00ae Mastercard\u00ae Business Card",
       "issuer": "Bank of America",
       "image_asset_name": "card_bofa_platinum_plus_business",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -7606,6 +7729,7 @@
       "name": "Bank of America Celebrity Cruises\u00ae Visa Signature\u00ae Credit Card",
       "issuer": "Bank of America",
       "image_asset_name": "card_bofa_celebrity_cruises",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -7655,6 +7779,7 @@
       "name": "Bank of America Norwegian Cruise Line\u00ae World Mastercard\u00ae",
       "issuer": "Bank of America",
       "image_asset_name": "card_bofa_norwegian_cruise",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -7694,6 +7819,7 @@
       "name": "Bank of America Royal Caribbean\u00ae Visa Signature\u00ae Credit Card",
       "issuer": "Bank of America",
       "image_asset_name": "card_bofa_royal_caribbean",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -7743,6 +7869,7 @@
       "name": "Bank of America Sandals\u00ae Visa Signature\u00ae Credit Card",
       "issuer": "Bank of America",
       "image_asset_name": "card_bofa_sandals",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -7792,6 +7919,7 @@
       "name": "Wells Fargo Active Cash\u00ae Card",
       "issuer": "Wells Fargo",
       "image_asset_name": "card_wf_active_cash",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -7831,6 +7959,7 @@
       "name": "Wells Fargo Autograph\u00ae Card",
       "issuer": "Wells Fargo",
       "image_asset_name": "card_wf_autograph",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -7875,6 +8004,7 @@
       "name": "Wells Fargo Reflect\u00ae Card",
       "issuer": "Wells Fargo",
       "image_asset_name": "card_wf_reflect",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -7914,6 +8044,7 @@
       "name": "Wells Fargo Signify Business Cash\u00ae Card",
       "issuer": "Wells Fargo",
       "image_asset_name": "card_wf_signify_business_cash",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -7953,6 +8084,7 @@
       "name": "AAdvantage\u00ae Aviator\u00ae Red World Elite Mastercard\u00ae",
       "issuer": "Barclays",
       "image_asset_name": "card_barclays_aviator_red",
+      "annual_fee": 99,
       "benefits": [],
       "perks": [
         {
@@ -8002,6 +8134,7 @@
       "name": "JetBlue Plus Card",
       "issuer": "Barclays",
       "image_asset_name": "card_barclays_jetblue_plus",
+      "annual_fee": 99,
       "benefits": [
         {
           "id": "barclays_jetblue_plus_vacation",
@@ -8064,6 +8197,7 @@
       "name": "JetBlue Business Card",
       "issuer": "Barclays",
       "image_asset_name": "card_barclays_jetblue_business",
+      "annual_fee": 99,
       "benefits": [
         {
           "id": "barclays_jetblue_biz_vacation",
@@ -8121,6 +8255,7 @@
       "name": "Hawaiian Airlines\u00ae Business Mastercard\u00ae",
       "issuer": "Barclays",
       "image_asset_name": "card_barclays_hawaiian_business",
+      "annual_fee": 99,
       "benefits": [],
       "perks": [
         {
@@ -8175,6 +8310,7 @@
       "name": "Frontier Airlines World Mastercard\u00ae",
       "issuer": "Barclays",
       "image_asset_name": "card_barclays_frontier",
+      "annual_fee": 99,
       "benefits": [
         {
           "id": "barclays_frontier_voucher",
@@ -8237,6 +8373,7 @@
       "name": "Bluegreen Rewards\u00ae Mastercard\u00ae",
       "issuer": "Barclays",
       "image_asset_name": "card_barclays_bluegreen",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -8266,6 +8403,7 @@
       "name": "Carnival\u00ae World Mastercard\u00ae",
       "issuer": "Barclays",
       "image_asset_name": "card_barclays_carnival",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -8300,6 +8438,7 @@
       "name": "Holland America Line Rewards Visa\u00ae Card",
       "issuer": "Barclays",
       "image_asset_name": "card_barclays_holland_america",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -8329,6 +8468,7 @@
       "name": "Princess Cruises Rewards Visa\u00ae Card",
       "issuer": "Barclays",
       "image_asset_name": "card_barclays_princess",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -8358,6 +8498,7 @@
       "name": "Priceline VIP Rewards\u2122 Visa\u00ae Card",
       "issuer": "Barclays",
       "image_asset_name": "card_barclays_priceline_vip",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -8392,6 +8533,7 @@
       "name": "Miles & More World Elite Mastercard\u00ae",
       "issuer": "Barclays",
       "image_asset_name": "card_barclays_miles_more",
+      "annual_fee": 89,
       "benefits": [],
       "perks": [
         {
@@ -8436,6 +8578,7 @@
       "name": "My GM Rewards\u00ae Mastercard\u00ae",
       "issuer": "Barclays",
       "image_asset_name": "card_barclays_gm_rewards",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -8470,6 +8613,7 @@
       "name": "Mastercard\u00ae Black Card\u2122",
       "issuer": "Barclays",
       "image_asset_name": "card_barclays_luxury_black",
+      "annual_fee": 699,
       "benefits": [
         {
           "id": "barclays_luxury_black_airline",
@@ -8554,6 +8698,7 @@
       "name": "Mastercard\u00ae Gold Card\u2122",
       "issuer": "Barclays",
       "image_asset_name": "card_barclays_luxury_gold",
+      "annual_fee": 1199,
       "benefits": [
         {
           "id": "barclays_luxury_gold_airline",
@@ -8638,6 +8783,7 @@
       "name": "Mastercard\u00ae Titanium Card\u2122",
       "issuer": "Barclays",
       "image_asset_name": "card_barclays_luxury_titanium",
+      "annual_fee": 299,
       "benefits": [],
       "perks": [
         {
@@ -8682,6 +8828,7 @@
       "name": "SKYPASS Visa Signature\u00ae Card",
       "issuer": "U.S. Bank",
       "image_asset_name": "card_usbank_skypass_signature",
+      "annual_fee": 99,
       "benefits": [],
       "perks": [
         {
@@ -8721,6 +8868,7 @@
       "name": "SKYPASS Visa\u00ae Business Card",
       "issuer": "U.S. Bank",
       "image_asset_name": "card_usbank_skypass_business",
+      "annual_fee": 99,
       "benefits": [],
       "perks": [
         {
@@ -8755,6 +8903,7 @@
       "name": "U.S. Bank Altitude\u00ae Connect Visa Signature\u00ae Card",
       "issuer": "U.S. Bank",
       "image_asset_name": "card_usbank_altitude_connect",
+      "annual_fee": 0,
       "benefits": [
         {
           "id": "usbank_alt_connect_global_entry",
@@ -8822,6 +8971,7 @@
       "name": "U.S. Bank Altitude Go Visa Signature Card",
       "issuer": "U.S. Bank",
       "image_asset_name": "card_usbank_altitude_go",
+      "annual_fee": 0,
       "benefits": [
         {
           "id": "usbank_alt_go_streaming",
@@ -8868,6 +9018,7 @@
       "name": "U.S. Bank Business Altitude\u00ae Connect Visa Signature\u00ae Card",
       "issuer": "U.S. Bank",
       "image_asset_name": "card_usbank_business_altitude_connect",
+      "annual_fee": 95,
       "benefits": [
         {
           "id": "usbank_biz_alt_connect_global_entry",
@@ -8925,6 +9076,7 @@
       "name": "U.S. Bank Business Leverage\u00ae Visa Signature\u00ae Card",
       "issuer": "U.S. Bank",
       "image_asset_name": "card_usbank_business_leverage",
+      "annual_fee": 95,
       "benefits": [],
       "perks": [
         {
@@ -8959,6 +9111,7 @@
       "name": "U.S. Bank Business Platinum Card",
       "issuer": "U.S. Bank",
       "image_asset_name": "card_usbank_business_platinum",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -8988,6 +9141,7 @@
       "name": "U.S. Bank Business Shield\u2122 Visa\u00ae Card",
       "issuer": "U.S. Bank",
       "image_asset_name": "card_usbank_business_shield",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -9022,6 +9176,7 @@
       "name": "U.S. Bank Cash+ Visa Signature Card",
       "issuer": "U.S. Bank",
       "image_asset_name": "card_usbank_cash_plus",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -9056,6 +9211,7 @@
       "name": "U.S. Bank Secured Visa\u00ae Card",
       "issuer": "U.S. Bank",
       "image_asset_name": "card_usbank_secured",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -9085,6 +9241,7 @@
       "name": "U.S. Bank Shield\u2122 Visa\u00ae Card",
       "issuer": "U.S. Bank",
       "image_asset_name": "card_usbank_shield",
+      "annual_fee": 0,
       "benefits": [
         {
           "id": "usbank_shield_loyalty_credit",
@@ -9137,6 +9294,7 @@
       "name": "U.S. Bank Triple Cash Rewards Visa\u00ae Business Card",
       "issuer": "U.S. Bank",
       "image_asset_name": "card_usbank_triple_cash_business",
+      "annual_fee": 0,
       "benefits": [
         {
           "id": "usbank_triple_cash_software",
@@ -9178,6 +9336,7 @@
       "name": "USAA\u00ae Cashback Rewards Plus American Express\u00ae Card",
       "issuer": "USAA",
       "image_asset_name": "card_usaa_cashback_rewards_plus_amex",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -9212,6 +9371,7 @@
       "name": "USAA Eagle Navigator\u2122 Visa Signature\u00ae Credit Card",
       "issuer": "USAA",
       "image_asset_name": "card_usaa_eagle_navigator",
+      "annual_fee": 95,
       "benefits": [
         {
           "id": "usaa_eagle_navigator_global_entry",
@@ -9279,6 +9439,7 @@
       "name": "USAA\u00ae Preferred Cash Rewards Visa Signature\u00ae Card",
       "issuer": "USAA",
       "image_asset_name": "card_usaa_preferred_cash_rewards",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -9313,6 +9474,7 @@
       "name": "USAA\u00ae Rate Advantage Visa Platinum\u00ae Card",
       "issuer": "USAA",
       "image_asset_name": "card_usaa_rate_advantage",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -9342,6 +9504,7 @@
       "name": "USAA\u00ae Rewards\u2122 American Express\u00ae Card",
       "issuer": "USAA",
       "image_asset_name": "card_usaa_rewards_amex",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -9376,6 +9539,7 @@
       "name": "USAA\u00ae Rewards\u2122 Visa Signature\u00ae Card",
       "issuer": "USAA",
       "image_asset_name": "card_usaa_rewards_visa",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -9415,6 +9579,7 @@
       "name": "PNC BusinessOptions\u00ae Visa Signature\u00ae Credit Card",
       "issuer": "PNC",
       "image_asset_name": "card_pnc_business_options",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -9444,6 +9609,7 @@
       "name": "PNC Cash Rewards\u00ae Visa\u00ae Credit Card",
       "issuer": "PNC",
       "image_asset_name": "card_pnc_cash_rewards",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -9478,6 +9644,7 @@
       "name": "PNC Core\u00ae Visa\u00ae Credit Card",
       "issuer": "PNC",
       "image_asset_name": "card_pnc_core",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -9502,6 +9669,7 @@
       "name": "PNC points\u00ae Visa\u00ae Business Credit Card",
       "issuer": "PNC",
       "image_asset_name": "card_pnc_points_business",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -9531,6 +9699,7 @@
       "name": "PNC points\u00ae Visa\u00ae Credit Card",
       "issuer": "PNC",
       "image_asset_name": "card_pnc_points",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -9555,6 +9724,7 @@
       "name": "PNC Travel Rewards Visa\u00ae Business Credit Card",
       "issuer": "PNC",
       "image_asset_name": "card_pnc_travel_rewards_business",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -9584,6 +9754,7 @@
       "name": "PNC Visa\u00ae Business Credit Card",
       "issuer": "PNC",
       "image_asset_name": "card_pnc_visa_business",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -9613,6 +9784,7 @@
       "name": "PenFed Gold Visa\u00ae Card",
       "issuer": "PenFed",
       "image_asset_name": "card_penfed_gold",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -9647,6 +9819,7 @@
       "name": "PenFed Pathfinder\u00ae Rewards Visa Signature\u00ae Card",
       "issuer": "PenFed",
       "image_asset_name": "card_penfed_pathfinder",
+      "annual_fee": 95,
       "benefits": [
         {
           "id": "penfed_pathfinder_airline",
@@ -9715,6 +9888,7 @@
       "name": "Platinum Rewards Visa Signature\u00ae Card",
       "issuer": "PenFed",
       "image_asset_name": "card_penfed_platinum_rewards",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -9749,6 +9923,7 @@
       "name": "Power Cash Rewards Visa Signature\u00ae Card",
       "issuer": "PenFed",
       "image_asset_name": "card_penfed_power_cash_rewards",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -9783,6 +9958,7 @@
       "name": "BP Rewards Visa\u00ae",
       "issuer": "Synchrony",
       "image_asset_name": "card_synchrony_bp_rewards",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -9807,6 +9983,7 @@
       "name": "MyLowe's Rewards Credit Card",
       "issuer": "Synchrony",
       "image_asset_name": "card_synchrony_mylowes_rewards",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -9831,6 +10008,7 @@
       "name": "Real Rewards\u00ae Credit Card by American Eagle and Aerie",
       "issuer": "Synchrony",
       "image_asset_name": "card_synchrony_real_rewards_ae",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -9860,6 +10038,7 @@
       "name": "Sun Country Airlines\u00ae Visa Signature\u00ae Card",
       "issuer": "Synchrony",
       "image_asset_name": "card_synchrony_sun_country",
+      "annual_fee": 89,
       "benefits": [],
       "perks": [
         {
@@ -9914,6 +10093,7 @@
       "name": "Synchrony Premier World Mastercard\u00ae",
       "issuer": "Synchrony",
       "image_asset_name": "card_synchrony_premier",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -9953,6 +10133,7 @@
       "name": "Techron Advantage\u00ae Visa Card",
       "issuer": "Synchrony",
       "image_asset_name": "card_synchrony_techron_advantage",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -9977,6 +10158,7 @@
       "name": "Verizon Visa\u00ae Card",
       "issuer": "Synchrony",
       "image_asset_name": "card_synchrony_verizon_visa",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -10011,6 +10193,7 @@
       "name": "Target Circle\u2122 Card",
       "issuer": "TD Bank",
       "image_asset_name": "card_td_target_circle",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -10040,6 +10223,7 @@
       "name": "TD Business Solutions Credit Card",
       "issuer": "TD Bank",
       "image_asset_name": "card_td_business_solutions",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -10074,6 +10258,7 @@
       "name": "TD Cash Credit Card",
       "issuer": "TD Bank",
       "image_asset_name": "card_td_cash",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -10108,6 +10293,7 @@
       "name": "TD First Class\u2120 Visa Signature\u00ae Credit Card",
       "issuer": "TD Bank",
       "image_asset_name": "card_td_first_class",
+      "annual_fee": 89,
       "benefits": [],
       "perks": [
         {
@@ -10147,6 +10333,7 @@
       "name": "Discover it\u00ae Cash Back",
       "issuer": "Discover",
       "image_asset_name": "card_discover_it_cash_back",
+      "annual_fee": 0,
       "benefits": [
         {
           "id": "discover_it_quarterly",
@@ -10199,6 +10386,7 @@
       "name": "Discover it\u00ae Chrome",
       "issuer": "Discover",
       "image_asset_name": "card_discover_it_chrome",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -10233,6 +10421,7 @@
       "name": "Discover it\u00ae Miles",
       "issuer": "Discover",
       "image_asset_name": "card_discover_it_miles",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -10272,6 +10461,7 @@
       "name": "Discover it\u00ae Secured Credit Card",
       "issuer": "Discover",
       "image_asset_name": "card_discover_it_secured",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -10316,6 +10506,7 @@
       "name": "Discover it\u00ae Student Cash Back",
       "issuer": "Discover",
       "image_asset_name": "card_discover_it_student_cash_back",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -10350,6 +10541,7 @@
       "name": "Discover it\u00ae Student Chrome",
       "issuer": "Discover",
       "image_asset_name": "card_discover_it_student_chrome",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -10384,6 +10576,7 @@
       "name": "NHL\u00ae Discover it\u00ae",
       "issuer": "Discover",
       "image_asset_name": "card_discover_nhl",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -10418,6 +10611,7 @@
       "name": "Apple Card",
       "issuer": "Goldman Sachs Bank USA",
       "image_asset_name": "card_apple",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -10467,6 +10661,7 @@
       "name": "HSBC Premier Credit Card",
       "issuer": "HSBC",
       "image_asset_name": "card_hsbc_premier",
+      "annual_fee": 95,
       "benefits": [],
       "perks": [
         {
@@ -10511,6 +10706,7 @@
       "name": "M&T Business Credit Card",
       "issuer": "M&T Bank",
       "image_asset_name": "card_mt_business",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -10545,6 +10741,7 @@
       "name": "M&T Business Rewards Credit Card",
       "issuer": "M&T Bank",
       "image_asset_name": "card_mt_business_rewards",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -10574,6 +10771,7 @@
       "name": "M&T Visa Credit Card",
       "issuer": "M&T Bank",
       "image_asset_name": "card_mt_visa",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -10603,6 +10801,7 @@
       "name": "M&T Visa\u00ae Credit Card with Rewards",
       "issuer": "M&T Bank",
       "image_asset_name": "card_mt_visa_rewards",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -10632,6 +10831,7 @@
       "name": "M&T Visa\u00ae Signature Credit Card",
       "issuer": "M&T Bank",
       "image_asset_name": "card_mt_visa_signature",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -10661,6 +10861,7 @@
       "name": "Navy Federal nRewards\u00ae Secured Credit Card",
       "issuer": "Navy Federal Credit Union",
       "image_asset_name": "card_navyfederal_nrewards_secured",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -10700,6 +10901,7 @@
       "name": "Brex Card",
       "issuer": "Brex",
       "image_asset_name": "card_brex",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -10759,6 +10961,7 @@
       "name": "OpenSky\u00ae Secured Visa\u00ae Credit Card",
       "issuer": "Capital Bank",
       "image_asset_name": "card_capitalbank_opensky_secured",
+      "annual_fee": 35,
       "benefits": [],
       "perks": [
         {
@@ -10788,6 +10991,7 @@
       "name": "Citizens Cash Back Plus\u2122 World Mastercard\u00ae",
       "issuer": "Citizens Bank",
       "image_asset_name": "card_citizens_cash_back_plus",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -10827,6 +11031,7 @@
       "name": "Aven Rewards Visa\u00ae Card",
       "issuer": "Coastal Community Bank",
       "image_asset_name": "card_coastal_aven_rewards",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -10866,6 +11071,7 @@
       "name": "Lands' End\u00ae Visa\u00ae Credit Card",
       "issuer": "Comenity Capital Bank",
       "image_asset_name": "card_comenity_lands_end",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -10900,6 +11106,7 @@
       "name": "Commerce Bank Secured Visa\u00ae Credit Card",
       "issuer": "Commerce Bank",
       "image_asset_name": "card_commerce_secured",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -10924,6 +11131,7 @@
       "name": "Commerce Bank VOIL\u00c0 Hotel Rewards Visa Signature\u00ae",
       "issuer": "Commerce Bank",
       "image_asset_name": "card_commerce_voila",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -10958,6 +11166,7 @@
       "name": "Special Connections\u00ae Credit Card",
       "issuer": "Commerce Bank",
       "image_asset_name": "card_commerce_special_connections",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -10982,6 +11191,7 @@
       "name": "Credit One Bank\u00ae Platinum Rewards Visa",
       "issuer": "Credit One Bank",
       "image_asset_name": "card_creditone_platinum_rewards",
+      "annual_fee": 39,
       "benefits": [],
       "perks": [
         {
@@ -11016,6 +11226,7 @@
       "name": "Credit One Bank\u00ae Platinum Rewards Visa with No Annual Fee",
       "issuer": "Credit One Bank",
       "image_asset_name": "card_creditone_platinum_no_af",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -11050,6 +11261,7 @@
       "name": "Fifth Third Secured Card",
       "issuer": "Fifth Third Bank",
       "image_asset_name": "card_fifththird_secured",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -11074,6 +11286,7 @@
       "name": "First Progress Platinum Prestige Mastercard\u00ae Secured Credit Card",
       "issuer": "First Progress",
       "image_asset_name": "card_firstprogress_platinum_prestige",
+      "annual_fee": 49,
       "benefits": [],
       "perks": [
         {
@@ -11103,6 +11316,7 @@
       "name": "Destiny\u2122 Mastercard\u00ae",
       "issuer": "Genesis FS Card Services",
       "image_asset_name": "card_genesis_destiny",
+      "annual_fee": 49,
       "benefits": [],
       "perks": [
         {
@@ -11127,6 +11341,7 @@
       "name": "Indigo\u00ae Mastercard\u00ae",
       "issuer": "Genesis FS Card Services",
       "image_asset_name": "card_genesis_indigo",
+      "annual_fee": 49,
       "benefits": [],
       "perks": [
         {
@@ -11156,6 +11371,7 @@
       "name": "Milestone\u00ae Gold Mastercard\u00ae",
       "issuer": "Genesis FS Card Services",
       "image_asset_name": "card_genesis_milestone_gold",
+      "annual_fee": 49,
       "benefits": [],
       "perks": [
         {
@@ -11185,6 +11401,7 @@
       "name": "FIT\u2122 Platinum Mastercard\u00ae",
       "issuer": "The Bank of Missouri",
       "image_asset_name": "card_missouri_fit_platinum",
+      "annual_fee": 125,
       "benefits": [],
       "perks": [
         {
@@ -11209,6 +11426,7 @@
       "name": "The Secured Self Visa\u00ae Credit Card",
       "issuer": "Self",
       "image_asset_name": "card_self_secured",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -11238,6 +11456,7 @@
       "name": "Simmons Rewards Visa Signature\u00ae",
       "issuer": "Simmons Bank",
       "image_asset_name": "card_simmons_rewards",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -11267,6 +11486,7 @@
       "name": "Simmons Visa\u00ae",
       "issuer": "Simmons Bank",
       "image_asset_name": "card_simmons_visa",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -11296,6 +11516,7 @@
       "name": "SDFCU Savings Secured Visa Platinum Card",
       "issuer": "State Department Federal Credit Union",
       "image_asset_name": "card_sdfcu_savings_secured",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -11330,6 +11551,7 @@
       "name": "Upgrade Cash Rewards Visa\u00ae",
       "issuer": "Upgrade",
       "image_asset_name": "card_upgrade_cash_rewards",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -11364,6 +11586,7 @@
       "name": "Petal\u00ae 1 \"No Annual Fee\" Visa\u00ae Credit Card",
       "issuer": "WebBank",
       "image_asset_name": "card_webbank_petal_1",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -11398,6 +11621,7 @@
       "name": "Petal\u00ae 2 \"Cash Back, No Fees\" Visa\u00ae Credit Card",
       "issuer": "WebBank",
       "image_asset_name": "card_webbank_petal_2",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -11437,6 +11661,7 @@
       "name": "Alliant Cashback Visa\u00ae Signature Card",
       "issuer": "Alliant Credit Union",
       "image_asset_name": "card_alliant_cashback_visa_signature",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
@@ -11476,6 +11701,7 @@
       "name": "The Ritz-Carlton\u2122 Credit Card",
       "issuer": "Chase",
       "image_asset_name": "card_chase_ritz_carlton",
+      "annual_fee": 450,
       "benefits": [
         {
           "id": "chase_ritz_airline",
@@ -11594,6 +11820,7 @@
       "name": "Citi Prestige\u00ae Card",
       "issuer": "Citi",
       "image_asset_name": "card_citi_prestige",
+      "annual_fee": 495,
       "benefits": [
         {
           "id": "citi_prestige_travel_credit",
@@ -11704,6 +11931,7 @@
       "name": "TJX Rewards\u00ae Platinum Mastercard\u00ae",
       "issuer": "Synchrony Bank",
       "image_asset_name": "card_synchrony_tjx_rewards_platinum_mastercard",
+      "annual_fee": 0,
       "benefits": [],
       "perks": [
         {
