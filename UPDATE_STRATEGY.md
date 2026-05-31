@@ -190,7 +190,7 @@ data = json.load(open('cards_data.json'))
 valid_freq = {'monthly','quarterly','semi_annual','annual','quadrennial'}
 valid_rule = {'calendar_year','card_anniversary','calendar_month','transaction_date'}
 valid_cat  = {'airline','hotel','dining','shopping','transport','other'}
-known_units = {'$','night','companion','boarding','voucher','pass'}
+known_units = {'$','night','companion','boarding','voucher','pass','upgrade'}
 
 errors = []
 for c in data['cards']:
