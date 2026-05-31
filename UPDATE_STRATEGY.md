@@ -279,13 +279,87 @@ When adding these, lead with a perk titled "Closed to New Applicants" so users i
 - **Chase Slate**: rebranded from Slate Edge in 2026; Slate Edge no longer accepting new applicants.
 - **Citi Rewards+ → Citi Strata** (July 2025): existing Rewards+ holders auto-upgraded; remove old Rewards+ if it appears.
 - **Credit values silently increase**: Disney bundle on BCE/BCP went from $84 → $120 (BCP only). Watch monthly Amex benefit dashboards for value bumps.
+- **Discover it® Cash Back quarterly 5% — benefit, not just a perk**: `discover_it_cash_back` and `discover_it_student` both have a `benefits[]` entry (id: `discover_it_quarterly`) in addition to the perk listing. Both must be updated each quarter. The Discover it® Chrome and Discover it® Miles do **not** participate — do not add a quarterly benefit to those cards.
+- **Discover ≠ Discovery**: The app and AI treat "discovery card" / "discover card" / "discover it" as synonyms all pointing to `discover_it_cash_back`. The card has never been called "Discovery" — that is a user colloquialism. Keep the `id` as `discover_it_cash_back` and the issuer as `"Discover"` (not "Discovery").
+
+## Quarterly rotating 5% category updates
+
+Two cards in the database use a **rotating quarterly 5% cash-back** benefit that must be updated **four times a year** (Jan 1, Apr 1, Jul 1, Oct 1). Missing this update causes the on-device AI to return stale or wrong category information when users ask "What's the 5% category this quarter?".
+
+### Cards affected
+
+| Card ID | Benefit ID | Issuer schedule page |
+|---|---|---|
+| `discover_it_cash_back` | `discover_it_quarterly` | [Discover quarterly calendar](https://www.discover.com/credit-cards/cash-back/5-percent-calendar.html) |
+| `chase_freedom_flex` | `chase_freedom_flex_quarterly` | [Chase Freedom rewards calendar](https://creditcards.chase.com/freedom-credit-cards/chase-freedom-flex) |
+| `chase_freedom` (classic) | `chase_freedom_quarterly` | Same Chase page above |
+
+> **Note:** The Discover it® Chrome and Discover it® Miles cards do **NOT** have rotating 5% categories and should **never** be given a quarterly benefit. The Discover it® Student Cash Back (`discover_it_student`) does participate in the same quarterly categories as `discover_it_cash_back` — update it with identical category text.
+
+### What to update each quarter
+
+For each affected card, patch the `description` and optionally the `notes` field of the quarterly benefit object. The structure stays the same — only the text changes:
+
+```json
+{
+  "id": "discover_it_quarterly",
+  "name": "Quarterly 5% Cash Back Category",
+  "description": "Up to $75 cash-back bonus per quarter ($300/year max). Q<N> <YEAR> (<MonthStart>–<MonthEnd>): <Category 1> and <Category 2>. Earn 5% on up to $1,500 in combined spending each quarter (then 1%). Must activate each quarter via your Discover account.",
+  "value_amount": 300.0,
+  "currency_symbol": "$",
+  "reset_frequency": "quarterly",
+  "reset_rule": "calendar_year",
+  "category": "other",
+  "is_enrollment_required": true,
+  "notes": "Categories rotate quarterly. Activation is not retroactive — only purchases made after activation count. $1,500 spending cap is per quarter; standard 1% applies above cap."
+}
+```
+
+For Chase Freedom cards:
+
+```json
+{
+  "id": "chase_freedom_flex_quarterly",
+  "name": "Quarterly Bonus Category Activation",
+  "description": "Q<N> <YEAR> (<MonthStart>–<MonthEnd>): <Cat1>, <Cat2>, <Cat3>, and <Cat4>. Earn 5% cash back on up to $1,500 in combined purchases (then 1%). Earn up to $75 bonus cash back per quarter ($300/year max). Activate by <activation deadline date>.",
+  ...
+}
+```
+
+### Update procedure
+
+1. Visit the issuer's official quarterly calendar page (links above).
+2. Note the exact category names as the issuer lists them (e.g., "Whole Foods Market", not "grocery stores").
+3. In `cards_data.json`, find the card by `id` and locate the benefit by `id`.
+4. Update the `description` field with the new quarter label, month range, and category list.
+5. For Chase Freedom Flex, also update the activation deadline date in `description`.
+6. Bump the catalog `version` field at the root of the JSON (`YYYY.MM` format, e.g. `"2026.07"` for a Q3 update).
+7. Run the validation script to confirm no enum errors.
+8. Commit to `perksly-data` with message: `Catalog v<version> — Q<N> <YEAR> rotating categories: Discover it + Chase Freedom`.
+9. Push — users receive the update within 24h.
+10. Before the next App Store release, sync the bundled copy in the app repo:
+    ```sh
+    cp /Users/waves/Claude-Workspace/Perksly-Data/perksly-data/cards_data.json \
+       /Users/waves/Claude-Workspace/Credit-Card-Tracker/Perksly/Card_Data/cards_data.json
+    ```
+
+### Current quarter reference (update this table each quarter)
+
+| Quarter | Period | Discover it® | Chase Freedom Flex / Classic |
+|---|---|---|---|
+| Q1 2026 | Jan–Mar | Grocery stores, fitness clubs & gym memberships | Grocery stores (excl. Walmart/Target), select streaming services |
+| **Q2 2026** | **Apr–Jun** | **Restaurants and Home Improvement Stores** | **Amazon.com, Whole Foods Market, Chase Travel, Feeding America (activate by Jun 14, 2026)** |
+| Q3 2026 | Jul–Sep | *TBA — check Discover calendar July 1* | *TBA — check Chase calendar July 1* |
+| Q4 2026 | Oct–Dec | *TBA — check Discover calendar Oct 1* | *TBA — check Chase calendar Oct 1* |
+
+---
 
 ## Cadence recommendation
 
 | Cadence | What to do |
 |---|---|
 | **Monthly** | Skim issuer "Card benefits update" feeds (Amex Insider, Chase blog, NerdWallet news, TPG news). Audit any card mentioned in news. |
-| **Quarterly** | Full audit on top-10 most-tracked cards. Run validation script. |
+| **Quarterly** | Full audit on top-10 most-tracked cards. Run validation script. **Update rotating 5% categories for Discover it and Chase Freedom cards.** |
 | **Semi-annually** | Full audit across all cards. Verify enums, sync, commit. |
 | **On news event** | When a major issuer announces refresh (Amex, Chase, Citi, Capital One typically refresh once or twice a year), audit all cards from that issuer within a week. |
 
