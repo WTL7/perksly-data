@@ -1,5 +1,5 @@
 {
-  "version": "2026.13",
+  "version": "2026.14",
   "cards": [
     {
       "id": "amex_platinum_personal",
@@ -4128,14 +4128,19 @@
       ],
       "perks": [
         {
-          "name": "Cell Phone Protection",
-          "description": "Up to $800 per claim (max 2/year, $50 deductible) when you pay your monthly cell bill with the card.",
-          "icon": "phone.circle.fill"
+          "name": "3% on U.S. Supermarkets",
+          "description": "3% cash back on U.S. supermarkets on up to $6,000 per year in purchases, then 1%.",
+          "icon": "gift.fill"
         },
         {
-          "name": "Return Protection",
-          "description": "Reimbursement up to $300 per item if a merchant won't take a return within 90 days.",
-          "icon": "arrow.uturn.backward.circle.fill"
+          "name": "3% on U.S. Online Retail",
+          "description": "3% cash back on U.S. online retail purchases on up to $6,000 per year in purchases, then 1%.",
+          "icon": "gift.fill"
+        },
+        {
+          "name": "3% on U.S. Gas Stations",
+          "description": "3% cash back at U.S. gas stations on up to $6,000 per year in purchases, then 1%.",
+          "icon": "gift.fill"
         },
         {
           "name": "Purchase Protection",
