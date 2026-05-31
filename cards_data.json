@@ -1,5 +1,5 @@
 {
-  "version": "2026.14",
+  "version": "2026.15",
   "cards": [
     {
       "id": "amex_platinum_personal",
@@ -10512,7 +10512,20 @@
       "issuer": "Discover",
       "image_asset_name": "card_discover_it_student_cash_back",
       "annual_fee": 0,
-      "benefits": [],
+      "benefits": [
+        {
+          "id": "discover_it_student_quarterly",
+          "name": "Quarterly 5% Cash Back Category",
+          "description": "Up to $75 cash-back bonus per quarter ($300/year max). Q2 2026 (Apr\u2013Jun): Restaurants and Home Improvement Stores. Earn 5% on up to $1,500 in combined spending each quarter (then 1%). Must activate each quarter via your Discover account.",
+          "value_amount": 300.0,
+          "currency_symbol": "$",
+          "reset_frequency": "quarterly",
+          "reset_rule": "calendar_year",
+          "category": "other",
+          "is_enrollment_required": true,
+          "notes": "Categories rotate quarterly on the same Discover calendar as Discover it\u00ae Cash Back. Activation is not retroactive \u2014 only purchases made after activation count. $1,500 spending cap is per quarter; standard 1% applies above cap."
+        }
+      ],
       "perks": [
         {
           "name": "5% Quarterly Bonus Categories",
@@ -10582,7 +10595,20 @@
       "issuer": "Discover",
       "image_asset_name": "card_discover_nhl",
       "annual_fee": 0,
-      "benefits": [],
+      "benefits": [
+        {
+          "id": "discover_nhl_quarterly",
+          "name": "Quarterly 5% Cash Back Category",
+          "description": "Up to $75 cash-back bonus per quarter ($300/year max). Q2 2026 (Apr\u2013Jun): Restaurants and Home Improvement Stores. Earn 5% on up to $1,500 in combined spending each quarter (then 1%). Must activate each quarter via your Discover account.",
+          "value_amount": 300.0,
+          "currency_symbol": "$",
+          "reset_frequency": "quarterly",
+          "reset_rule": "calendar_year",
+          "category": "other",
+          "is_enrollment_required": true,
+          "notes": "Categories rotate quarterly on the same Discover calendar as Discover it\u00ae Cash Back. Activation is not retroactive \u2014 only purchases made after activation count. $1,500 spending cap is per quarter; standard 1% applies above cap."
+        }
+      ],
       "perks": [
         {
           "name": "5% Quarterly Bonus Categories",
