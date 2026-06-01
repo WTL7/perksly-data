@@ -1,5 +1,5 @@
 {
-  "version": "2026.15",
+  "version": "2026.16",
   "cards": [
     {
       "id": "amex_platinum_personal",
@@ -8081,56 +8081,6 @@
           "name": "$0 Liability",
           "description": "Zero-liability protection on unauthorized transactions.",
           "icon": "lock.shield.fill"
-        }
-      ]
-    },
-    {
-      "id": "barclays_aviator_red",
-      "name": "AAdvantage\u00ae Aviator\u00ae Red World Elite Mastercard\u00ae",
-      "issuer": "Barclays",
-      "image_asset_name": "card_barclays_aviator_red",
-      "annual_fee": 99,
-      "benefits": [],
-      "perks": [
-        {
-          "name": "Migrating to Citi AAdvantage Platinum Select",
-          "description": "As of April 24, 2026, Aviator Red holders are being transitioned to the Citi\u00ae / AAdvantage\u00ae Platinum Select\u00ae World Elite Mastercard\u00ae as Citi becomes the exclusive issuer of all American Airlines AAdvantage cards.",
-          "icon": "creditcard"
-        },
-        {
-          "name": "First Checked Bag Free",
-          "description": "First checked bag free for the cardmember and up to 4 companions on the same domestic American Airlines reservation.",
-          "icon": "bag.fill"
-        },
-        {
-          "name": "Companion Certificate at $20K Spend",
-          "description": "Earn a domestic Companion Certificate after $20,000 in cardmembership-year spend (with renewal). Pay $99 + taxes/fees to redeem.",
-          "icon": "person.2.fill"
-        },
-        {
-          "name": "Preferred Boarding",
-          "description": "Group 5 boarding for the cardmember and up to 4 companions on the same reservation.",
-          "icon": "airplane.circle.fill"
-        },
-        {
-          "name": "25% Back on In-flight Purchases",
-          "description": "25% statement credit on eligible American Airlines in-flight food and beverage purchases.",
-          "icon": "airplane.circle.fill"
-        },
-        {
-          "name": "World Elite Mastercard Concierge",
-          "description": "24/7 concierge for travel, dining, entertainment, and shopping.",
-          "icon": "phone.circle.fill"
-        },
-        {
-          "name": "Auto Rental CDW",
-          "description": "Secondary coverage on eligible rentals charged to the card.",
-          "icon": "car.fill"
-        },
-        {
-          "name": "No Foreign Transaction Fees",
-          "description": "No fees on purchases made outside the U.S.",
-          "icon": "globe"
         }
       ]
     },
