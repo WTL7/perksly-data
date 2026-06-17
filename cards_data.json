@@ -1,5 +1,5 @@
 {
-  "version": "2026.16",
+  "version": "2026.17",
   "cards": [
     {
       "id": "amex_platinum_personal",
@@ -1309,6 +1309,30 @@
           "is_enrollment_required": true
         },
         {
+          "id": "csr_dining_credit",
+          "name": "Exclusive Tables Dining Credit",
+          "description": "$300 annual dining credit at restaurants in the Sapphire Reserve Exclusive Tables program. Split into two $150 credits (Jan-Jun, Jul-Dec).",
+          "value_amount": 300.0,
+          "currency_symbol": "$",
+          "reset_frequency": "semi_annual",
+          "reset_rule": "calendar_year",
+          "category": "dining",
+          "sub_periods": [
+            {
+              "label": "H1 (Jan-Jun)",
+              "value": 150,
+              "end_date": "06-30"
+            },
+            {
+              "label": "H2 (Jul-Dec)",
+              "value": 150,
+              "end_date": "12-31"
+            }
+          ],
+          "is_enrollment_required": false,
+          "notes": "Pay with your Sapphire Reserve at Exclusive Tables restaurants; add your card to OpenTable. Credits post automatically. No enrollment required."
+        },
+        {
           "id": "csr_doordash_restaurant",
           "name": "DoorDash Restaurant Credit",
           "description": "$5 monthly promo at checkout on one qualifying restaurant order on DoorDash. Requires active DashPass.",
@@ -1441,8 +1465,8 @@
         {
           "id": "csp_hotel_credit",
           "name": "Chase Travel Hotel Credit",
-          "description": "$50 annual credit for hotel bookings through Chase Travel.",
-          "value_amount": 50.0,
+          "description": "$100 annual credit for hotel bookings through Chase Travel.",
+          "value_amount": 100.0,
           "currency_symbol": "$",
           "reset_frequency": "annual",
           "reset_rule": "card_anniversary",
@@ -1466,8 +1490,8 @@
         {
           "id": "csp_global_entry",
           "name": "Global Entry / TSA PreCheck Credit",
-          "description": "Up to $50 credit for Global Entry or TSA PreCheck application fees every 4 years.",
-          "value_amount": 50.0,
+          "description": "Up to $120 credit for Global Entry, TSA PreCheck, or NEXUS application fees every 4 years.",
+          "value_amount": 120.0,
           "currency_symbol": "$",
           "reset_frequency": "quadrennial",
           "reset_rule": "transaction_date",
@@ -1521,6 +1545,16 @@
           "name": "No Foreign Transaction Fees",
           "description": "No fees on purchases made outside the U.S.",
           "icon": "globe"
+        },
+        {
+          "name": "Apple TV Subscription",
+          "description": "Complimentary Apple TV subscription for one year when activated by December 31, 2026.",
+          "icon": "tv"
+        },
+        {
+          "name": "Emergency Evacuation & Transportation",
+          "description": "Up to $100,000 for emergency evacuation when traveling more than 100 miles from home.",
+          "icon": "shield.lefthalf.filled"
         }
       ]
     },
@@ -2175,7 +2209,7 @@
         },
         {
           "name": "Capital One Lounge Access",
-          "description": "Complimentary access for the primary cardholder to Capital One Lounges and Landings. Guest fees apply ($45/adult, $25/under 17) unless $75K spend threshold met.",
+          "description": "Complimentary access for the primary cardholder to Capital One Lounges and Landings. As of February 1, 2026, authorized users require a $125/year fee each (up to 4) for access. Complimentary guest access requires $75K annual spend; otherwise guest fees apply ($45/adult, $25/under 17).",
           "icon": "airplane.circle.fill"
         },
         {
