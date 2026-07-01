@@ -1,5 +1,5 @@
 {
-  "version": "2026.17",
+  "version": "2026.18",
   "cards": [
     {
       "id": "amex_platinum_personal",
@@ -117,29 +117,6 @@
           "category": "transport",
           "is_enrollment_required": true,
           "notes": "Separate from Uber Cash credit. Track against $120/year regardless of whether you pay monthly or annually."
-        },
-        {
-          "id": "amex_plat_saks",
-          "name": "Saks Fifth Avenue Credit",
-          "description": "Up to $50 in statement credits Jan\u2013Jun and $50 Jul\u2013Dec. NOTE: Amex is discontinuing this credit after June 30, 2026 \u2014 use it before then.",
-          "value_amount": 100.0,
-          "currency_symbol": "$",
-          "reset_frequency": "semi_annual",
-          "reset_rule": "calendar_year",
-          "category": "shopping",
-          "sub_periods": [
-            {
-              "label": "H1 (Jan-Jun)",
-              "value": 50,
-              "end_date": "06-30"
-            },
-            {
-              "label": "H2 (Jul-Dec)",
-              "value": 50,
-              "end_date": "12-31"
-            }
-          ],
-          "is_enrollment_required": true
         },
         {
           "id": "amex_plat_digital_ent",
@@ -2074,7 +2051,7 @@
         {
           "id": "chase_freedom_flex_quarterly",
           "name": "Quarterly Bonus Category Activation",
-          "description": "Q2 2026 (Apr\u2013Jun): Amazon, Whole Foods Market, Chase Travel, and donations to Feeding America. Earn 5% on up to $1,500 combined ($75 max bonus this quarter). Activate by June 14, 2026.",
+          "description": "Q3 2026 (Jul\u2013Sep): Gas stations and EV charging, public transit, select live entertainment, and donations to United Way. Earn 5% on up to $1,500 combined ($75 max bonus this quarter). Activate by September 14, 2026.",
           "value_amount": 300.0,
           "currency_symbol": "$",
           "reset_frequency": "quarterly",
@@ -2127,7 +2104,7 @@
         {
           "id": "chase_freedom_classic_quarterly",
           "name": "Quarterly Bonus Category Activation",
-          "description": "Q2 2026 (Apr\u2013Jun): Amazon, Whole Foods Market, Chase Travel, and donations to Feeding America. Earn 5% on up to $1,500 combined ($75 max bonus this quarter). Activate by June 14, 2026.",
+          "description": "Q3 2026 (Jul\u2013Sep): Gas stations and EV charging, public transit, select live entertainment, and donations to United Way. Earn 5% on up to $1,500 combined ($75 max bonus this quarter). Activate by September 14, 2026.",
           "value_amount": 300.0,
           "currency_symbol": "$",
           "reset_frequency": "quarterly",
@@ -10327,7 +10304,7 @@
         {
           "id": "discover_it_quarterly",
           "name": "Quarterly 5% Cash Back Category",
-          "description": "Up to $75 cash-back bonus per quarter ($300/year max). Q2 2026 (Apr\u2013Jun): Restaurants and Home Improvement Stores. Earn 5% on up to $1,500 in combined spending each quarter (then 1%). Must activate each quarter via your Discover account.",
+          "description": "Up to $75 cash-back bonus per quarter ($300/year max). Q3 2026 (Jul\u2013Sep): Gas Stations and EV Charging, Public Transportation, Flights, and Drugstores. Earn 5% on up to $1,500 in combined spending each quarter (then 1%). Must activate each quarter via your Discover account.",
           "value_amount": 300.0,
           "currency_symbol": "$",
           "reset_frequency": "quarterly",
@@ -10500,7 +10477,7 @@
         {
           "id": "discover_it_student_quarterly",
           "name": "Quarterly 5% Cash Back Category",
-          "description": "Up to $75 cash-back bonus per quarter ($300/year max). Q2 2026 (Apr\u2013Jun): Restaurants and Home Improvement Stores. Earn 5% on up to $1,500 in combined spending each quarter (then 1%). Must activate each quarter via your Discover account.",
+          "description": "Up to $75 cash-back bonus per quarter ($300/year max). Q3 2026 (Jul\u2013Sep): Gas Stations and EV Charging, Public Transportation, Flights, and Drugstores. Earn 5% on up to $1,500 in combined spending each quarter (then 1%). Must activate each quarter via your Discover account.",
           "value_amount": 300.0,
           "currency_symbol": "$",
           "reset_frequency": "quarterly",
@@ -10583,7 +10560,7 @@
         {
           "id": "discover_nhl_quarterly",
           "name": "Quarterly 5% Cash Back Category",
-          "description": "Up to $75 cash-back bonus per quarter ($300/year max). Q2 2026 (Apr\u2013Jun): Restaurants and Home Improvement Stores. Earn 5% on up to $1,500 in combined spending each quarter (then 1%). Must activate each quarter via your Discover account.",
+          "description": "Up to $75 cash-back bonus per quarter ($300/year max). Q3 2026 (Jul\u2013Sep): Gas Stations and EV Charging, Public Transportation, Flights, and Drugstores. Earn 5% on up to $1,500 in combined spending each quarter (then 1%). Must activate each quarter via your Discover account.",
           "value_amount": 300.0,
           "currency_symbol": "$",
           "reset_frequency": "quarterly",
