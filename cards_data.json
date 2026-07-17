@@ -1,5 +1,5 @@
 {
-  "version": "2026.18",
+  "version": "2026.19",
   "cards": [
     {
       "id": "amex_platinum_personal",
@@ -387,7 +387,7 @@
         {
           "id": "amex_gold_dining",
           "name": "Dining Credit",
-          "description": "$10 monthly credit at Grubhub, Cheesecake Factory, Goldbelly, Wine.com, and Five Guys.",
+          "description": "$10 monthly credit at Grubhub, Cheesecake Factory, Five Guys, Buffalo Wild Wings, and Wonder.",
           "value_amount": 120.0,
           "currency_symbol": "$",
           "reset_frequency": "monthly",
