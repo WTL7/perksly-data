@@ -1,5 +1,5 @@
 {
-  "version": "2026.19",
+  "version": "2026.20",
   "cards": [
     {
       "id": "amex_platinum_personal",
@@ -940,8 +940,8 @@
           "icon": "airplane.circle.fill"
         },
         {
-          "name": "First Checked Bag Free",
-          "description": "First checked bag free on Delta flights for the cardmember and up to 8 companions on the same reservation.",
+          "name": "First & Second Checked Bag Free",
+          "description": "First checked bag free on Delta flights, plus a free second checked bag on domestic Delta-operated flights, for the cardmember and up to 8 companions on the same reservation (as of June 4, 2026).",
           "icon": "bag.fill"
         },
         {
@@ -1029,8 +1029,8 @@
       ],
       "perks": [
         {
-          "name": "First Checked Bag Free",
-          "description": "First checked bag free on Delta flights for the cardmember and up to 8 companions on the same reservation.",
+          "name": "First & Second Checked Bag Free",
+          "description": "First checked bag free on Delta flights, plus a free second checked bag on domestic Delta-operated flights, for the cardmember and up to 8 companions on the same reservation (as of June 4, 2026).",
           "icon": "bag.fill"
         },
         {
@@ -3791,8 +3791,8 @@
       ],
       "perks": [
         {
-          "name": "First Checked Bag Free",
-          "description": "First checked bag free on Delta flights for the cardmember and up to 8 companions on the same reservation.",
+          "name": "First & Second Checked Bag Free",
+          "description": "First checked bag free on Delta flights, plus a free second checked bag on domestic Delta-operated flights, for the cardmember and up to 8 companions on the same reservation (as of June 4, 2026).",
           "icon": "bag.fill"
         },
         {
@@ -3861,8 +3861,8 @@
       ],
       "perks": [
         {
-          "name": "First Checked Bag Free",
-          "description": "First checked bag free on Delta flights for the cardmember and up to 8 companions on the same reservation.",
+          "name": "First & Second Checked Bag Free",
+          "description": "First checked bag free on Delta flights, plus a free second checked bag on domestic Delta-operated flights, for the cardmember and up to 8 companions on the same reservation (as of June 4, 2026).",
           "icon": "bag.fill"
         },
         {
@@ -3955,8 +3955,8 @@
       ],
       "perks": [
         {
-          "name": "First Checked Bag Free",
-          "description": "First checked bag free on Delta flights for the cardmember and up to 8 companions on the same reservation.",
+          "name": "First & Second Checked Bag Free",
+          "description": "First checked bag free on Delta flights, plus a free second checked bag on domestic Delta-operated flights, for the cardmember and up to 8 companions on the same reservation (as of June 4, 2026).",
           "icon": "bag.fill"
         },
         {
@@ -4064,8 +4064,8 @@
           "icon": "airplane.circle.fill"
         },
         {
-          "name": "First Checked Bag Free",
-          "description": "First checked bag free on Delta flights for the cardmember and up to 8 companions on the same reservation.",
+          "name": "First & Second Checked Bag Free",
+          "description": "First checked bag free on Delta flights, plus a free second checked bag on domestic Delta-operated flights, for the cardmember and up to 8 companions on the same reservation (as of June 4, 2026).",
           "icon": "bag.fill"
         },
         {
