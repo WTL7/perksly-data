@@ -1,5 +1,5 @@
 {
-  "version": "2026.20",
+  "version": "2026.21",
   "cards": [
     {
       "id": "amex_platinum_personal",
@@ -2359,11 +2359,23 @@
     },
     {
       "id": "citi_aadvantage_executive",
-      "name": "Citi\u00ae / AAdvantage\u00ae Executive World Elite Mastercard\u00ae",
+      "name": "Citi\u00ae / AAdvantage\u00ae Executive World Legend Mastercard\u00ae",
       "issuer": "Citi",
       "image_asset_name": "card_citi_aa_executive",
-      "annual_fee": 595,
+      "annual_fee": 695,
       "benefits": [
+        {
+          "id": "citi_aa_exec_aa_vacations",
+          "name": "American Airlines Vacations Credit",
+          "description": "Up to $500 per year in statement credits on eligible American Airlines Vacations packages and experiences booked at AAVacations.com, as two credits of up to $250 (Jan\u2013Jun and Jul\u2013Dec).",
+          "value_amount": 500.0,
+          "currency_symbol": "$",
+          "reset_frequency": "semi_annual",
+          "reset_rule": "calendar_year",
+          "category": "airline",
+          "is_enrollment_required": false,
+          "notes": "Added Aug 23, 2026. Requires an eligible AA Vacations package (generally 2+ travel components) or experience paid with the card. Credit posts within 8-10 weeks."
+        },
         {
           "id": "citi_aa_exec_grubhub",
           "name": "Grubhub Credit",
@@ -2375,7 +2387,7 @@
           "category": "dining",
           "monthly_cap": 10.0,
           "is_enrollment_required": false,
-          "notes": "No minimum purchase. Includes tips, taxes, fees. Does not roll over."
+          "notes": "No minimum purchase. Includes tips, taxes, fees. Does not roll over. Discontinued for accounts opened on/after Aug 23, 2026; existing cardmembers keep this credit through Aug 31, 2027."
         },
         {
           "id": "citi_aa_exec_lyft",
@@ -2438,7 +2450,7 @@
         },
         {
           "name": "25% Savings on In-flight Purchases",
-          "description": "25% statement credit on eligible American Airlines in-flight food and beverage purchases.",
+          "description": "25% statement credit on eligible American Airlines in-flight food and beverage purchases. Ends Sep 30, 2026 for existing cardmembers; not offered to accounts opened on/after Aug 23, 2026.",
           "icon": "airplane.circle.fill"
         },
         {
