@@ -231,7 +231,7 @@ The bundled fallback inside the app repo (`Perksly/Card_Data/cards_data.json`) o
 ```sh
 # When prepping an App Store release, refresh the bundled copy:
 cp /path/to/perksly-data/cards_data.json \
-   "/Users/waves/Claude-Workspace/Credit-Card-Tracker/Perksly/Card_Data/cards_data.json"
+   "/Users/waves/GoogleDrive/AI-Workspace/Credit-Card-Tracker/Perksly/Card_Data/cards_data.json"
 cp /path/to/perksly-data/cards_data.json \
    "/Users/waves/Documents/GitHub/Credit-Card-Tracker/Perksly/Card_Data/cards_data.json"
 ```
@@ -339,8 +339,8 @@ For Chase Freedom cards:
 9. Push — users receive the update within 24h.
 10. Before the next App Store release, sync the bundled copy in the app repo:
     ```sh
-    cp /Users/waves/Claude-Workspace/Perksly-Data/perksly-data/cards_data.json \
-       /Users/waves/Claude-Workspace/Credit-Card-Tracker/Perksly/Card_Data/cards_data.json
+    cp /Users/waves/GoogleDrive/AI-Workspace/Perksly-Data/perksly-data/cards_data.json \
+       /Users/waves/GoogleDrive/AI-Workspace/Credit-Card-Tracker/Perksly/Card_Data/cards_data.json
     ```
 
 ### Current quarter reference (update this table each quarter)
