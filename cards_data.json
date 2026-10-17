@@ -1,5 +1,5 @@
 {
-  "version": "2026.21",
+  "version": "2026.22",
   "cards": [
     {
       "id": "amex_platinum_personal",
@@ -2051,7 +2051,7 @@
         {
           "id": "chase_freedom_flex_quarterly",
           "name": "Quarterly Bonus Category Activation",
-          "description": "Q3 2026 (Jul\u2013Sep): Gas stations and EV charging, public transit, select live entertainment, and donations to United Way. Earn 5% on up to $1,500 combined ($75 max bonus this quarter). Activate by September 14, 2026.",
+          "description": "Q4 2026 (Oct\u2013Dec): Grocery stores (excluding Walmart and Target), dining, and donations to the American Red Cross. Earn 5% on up to $1,500 combined ($75 max bonus this quarter). Activate by December 14, 2026.",
           "value_amount": 300.0,
           "currency_symbol": "$",
           "reset_frequency": "quarterly",
@@ -2104,7 +2104,7 @@
         {
           "id": "chase_freedom_classic_quarterly",
           "name": "Quarterly Bonus Category Activation",
-          "description": "Q3 2026 (Jul\u2013Sep): Gas stations and EV charging, public transit, select live entertainment, and donations to United Way. Earn 5% on up to $1,500 combined ($75 max bonus this quarter). Activate by September 14, 2026.",
+          "description": "Q4 2026 (Oct\u2013Dec): Grocery stores (excluding Walmart and Target), dining, and donations to the American Red Cross. Earn 5% on up to $1,500 combined ($75 max bonus this quarter). Activate by December 14, 2026.",
           "value_amount": 300.0,
           "currency_symbol": "$",
           "reset_frequency": "quarterly",
@@ -2446,11 +2446,6 @@
         {
           "name": "Priority Privileges",
           "description": "Priority check-in, screening, and boarding (Group 4) on American Airlines flights.",
-          "icon": "airplane.circle.fill"
-        },
-        {
-          "name": "25% Savings on In-flight Purchases",
-          "description": "25% statement credit on eligible American Airlines in-flight food and beverage purchases. Ends Sep 30, 2026 for existing cardmembers; not offered to accounts opened on/after Aug 23, 2026.",
           "icon": "airplane.circle.fill"
         },
         {
@@ -4389,6 +4384,11 @@
       "benefits": [],
       "perks": [
         {
+          "name": "Closed to New Applicants",
+          "description": "The Amazon Business card portfolio transitioned from American Express to U.S. Bank on August 14, 2026. Most cardholders were migrated to the U.S. Bank Amazon Business Card; legacy accounts that remained with Amex retain their card benefits.",
+          "icon": "creditcard"
+        },
+        {
           "name": "3% Back at Amazon Business / AWS / Whole Foods",
           "description": "Choose between 3% back on the first $120K/year in eligible Amazon Business, AWS, Amazon.com, and Whole Foods purchases (then 1%) \u2014 OR 60-day 0% APR on those purchases.",
           "icon": "gift.fill"
@@ -4433,6 +4433,11 @@
       "annual_fee": 0,
       "benefits": [],
       "perks": [
+        {
+          "name": "Closed to New Applicants",
+          "description": "The Amazon Business card portfolio transitioned from American Express to U.S. Bank on August 14, 2026. Most cardholders were migrated to the U.S. Bank Prime Business Card; legacy accounts that remained with Amex retain their card benefits.",
+          "icon": "creditcard"
+        },
         {
           "name": "5% Back at Amazon Business / AWS / Whole Foods",
           "description": "Choose between 5% back on the first $120K/year in eligible Amazon Business, AWS, Amazon.com, and Whole Foods purchases (then 1%) \u2014 OR 90-day 0% APR. Requires an active Business Prime membership.",
@@ -9310,6 +9315,86 @@
       ]
     },
     {
+      "id": "usbank_amazon_business",
+      "name": "Amazon Business Card",
+      "issuer": "U.S. Bank",
+      "image_asset_name": "card_usbank_amazon_business",
+      "annual_fee": 0,
+      "benefits": [],
+      "perks": [
+        {
+          "name": "3% Back at Amazon Business / AWS / Whole Foods",
+          "description": "Choose between 3% back on the first $150,000 per calendar year in U.S. purchases at Amazon Business, Amazon.com, Amazon Web Services (AWS), and Whole Foods Market (then 1%) \u2014 OR 0% APR installment plans up to 12 months on qualifying purchases.",
+          "icon": "gift.fill"
+        },
+        {
+          "name": "2% Back on Top 3 Spend Categories",
+          "description": "Automatically earn 2% back on your top three eligible spending categories outside of Amazon each billing cycle on the first $150,000 per calendar year (then 1%).",
+          "icon": "gift.fill"
+        },
+        {
+          "name": "3% Back on U.S. Bank Travel Center",
+          "description": "Earn 3% back on prepaid hotel, air, and car rental reservations booked through the U.S. Bank Travel Center.",
+          "icon": "airplane.circle.fill"
+        },
+        {
+          "name": "Employee & Virtual Cards with Spend Controls",
+          "description": "Issue physical and virtual employee cards at no extra cost with customizable spending limits and real-time spend visibility.",
+          "icon": "creditcard"
+        },
+        {
+          "name": "Mastercard Easy Savings",
+          "description": "Automatic rebates on eligible business purchases at participating hotels, restaurants, gas stations, and business service merchants.",
+          "icon": "gift.fill"
+        },
+        {
+          "name": "No Foreign Transaction Fees",
+          "description": "No fees on purchases made outside the U.S.",
+          "icon": "globe"
+        }
+      ]
+    },
+    {
+      "id": "usbank_amazon_business_prime",
+      "name": "Prime Business Card",
+      "issuer": "U.S. Bank",
+      "image_asset_name": "card_usbank_amazon_business_prime",
+      "annual_fee": 0,
+      "benefits": [],
+      "perks": [
+        {
+          "name": "5% Back at Amazon Business / AWS / Whole Foods",
+          "description": "Choose between 5% back on the first $150,000 per calendar year in U.S. purchases at Amazon Business, Amazon.com, Amazon Web Services (AWS), and Whole Foods Market (then 1%) \u2014 OR 0% APR installment plans up to 12 months on qualifying purchases. Requires an eligible Prime membership.",
+          "icon": "gift.fill"
+        },
+        {
+          "name": "2% Back on Top 3 Spend Categories",
+          "description": "Automatically earn 2% back on your top three eligible spending categories outside of Amazon each billing cycle on the first $150,000 per calendar year (then 1%).",
+          "icon": "gift.fill"
+        },
+        {
+          "name": "5% Back on U.S. Bank Travel Center",
+          "description": "Earn 5% back on prepaid hotel, air, and car rental reservations booked through the U.S. Bank Travel Center with an eligible Prime membership.",
+          "icon": "airplane.circle.fill"
+        },
+        {
+          "name": "Employee & Virtual Cards with Spend Controls",
+          "description": "Issue physical and virtual employee cards at no extra cost with customizable spending limits and real-time spend visibility.",
+          "icon": "creditcard"
+        },
+        {
+          "name": "Mastercard Easy Savings",
+          "description": "Automatic rebates on eligible business purchases at participating hotels, restaurants, gas stations, and business service merchants.",
+          "icon": "gift.fill"
+        },
+        {
+          "name": "No Foreign Transaction Fees",
+          "description": "No fees on purchases made outside the U.S.",
+          "icon": "globe"
+        }
+      ]
+    },
+    {
       "id": "usaa_cashback_rewards_plus_amex",
       "name": "USAA\u00ae Cashback Rewards Plus American Express\u00ae Card",
       "issuer": "USAA",
@@ -10316,7 +10401,7 @@
         {
           "id": "discover_it_quarterly",
           "name": "Quarterly 5% Cash Back Category",
-          "description": "Up to $75 cash-back bonus per quarter ($300/year max). Q3 2026 (Jul\u2013Sep): Gas Stations and EV Charging, Public Transportation, Flights, and Drugstores. Earn 5% on up to $1,500 in combined spending each quarter (then 1%). Must activate each quarter via your Discover account.",
+          "description": "Up to $75 cash-back bonus per quarter ($300/year max). Q4 2026 (Oct\u2013Dec): Restaurants, Entertainment, and Utilities. Earn 5% on up to $1,500 in combined spending each quarter (then 1%). Must activate each quarter via your Discover account.",
           "value_amount": 300.0,
           "currency_symbol": "$",
           "reset_frequency": "quarterly",
@@ -10489,7 +10574,7 @@
         {
           "id": "discover_it_student_quarterly",
           "name": "Quarterly 5% Cash Back Category",
-          "description": "Up to $75 cash-back bonus per quarter ($300/year max). Q3 2026 (Jul\u2013Sep): Gas Stations and EV Charging, Public Transportation, Flights, and Drugstores. Earn 5% on up to $1,500 in combined spending each quarter (then 1%). Must activate each quarter via your Discover account.",
+          "description": "Up to $75 cash-back bonus per quarter ($300/year max). Q4 2026 (Oct\u2013Dec): Restaurants, Entertainment, and Utilities. Earn 5% on up to $1,500 in combined spending each quarter (then 1%). Must activate each quarter via your Discover account.",
           "value_amount": 300.0,
           "currency_symbol": "$",
           "reset_frequency": "quarterly",
@@ -10572,7 +10657,7 @@
         {
           "id": "discover_nhl_quarterly",
           "name": "Quarterly 5% Cash Back Category",
-          "description": "Up to $75 cash-back bonus per quarter ($300/year max). Q3 2026 (Jul\u2013Sep): Gas Stations and EV Charging, Public Transportation, Flights, and Drugstores. Earn 5% on up to $1,500 in combined spending each quarter (then 1%). Must activate each quarter via your Discover account.",
+          "description": "Up to $75 cash-back bonus per quarter ($300/year max). Q4 2026 (Oct\u2013Dec): Restaurants, Entertainment, and Utilities. Earn 5% on up to $1,500 in combined spending each quarter (then 1%). Must activate each quarter via your Discover account.",
           "value_amount": 300.0,
           "currency_symbol": "$",
           "reset_frequency": "quarterly",
