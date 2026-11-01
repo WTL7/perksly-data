@@ -1,5 +1,5 @@
 {
-  "version": "2026.22",
+  "version": "2026.23",
   "cards": [
     {
       "id": "amex_platinum_personal",
@@ -2063,9 +2063,9 @@
       ],
       "perks": [
         {
-          "name": "Cell Phone Protection",
-          "description": "Up to $800 per claim (max 2/year, $50 deductible) for damage or theft when you pay your monthly cell bill with the card.",
-          "icon": "phone.circle.fill"
+          "name": "No Foreign Transaction Fees",
+          "description": "No fees on purchases made outside the U.S.",
+          "icon": "globe"
         },
         {
           "name": "DoorDash DashPass",
