@@ -1,5 +1,5 @@
 {
-  "version": "2026.23",
+  "version": "2026.24",
   "cards": [
     {
       "id": "amex_platinum_personal",
@@ -892,18 +892,6 @@
           "is_enrollment_required": true
         },
         {
-          "id": "amex_delta_reserve_uber_one",
-          "name": "Uber One Credit",
-          "description": "Up to $120 in annual statement credits covering Uber One \u2014 monthly or annual membership.",
-          "value_amount": 120.0,
-          "currency_symbol": "$",
-          "reset_frequency": "annual",
-          "reset_rule": "calendar_year",
-          "category": "transport",
-          "is_enrollment_required": true,
-          "notes": "Must start by 6/25/2026. Track against $120/year regardless of billing cadence."
-        },
-        {
           "id": "amex_delta_reserve_global_entry",
           "name": "Global Entry / TSA PreCheck Credit",
           "description": "Up to $120 credit for Global Entry or TSA PreCheck application fees every 4 years.",
@@ -989,18 +977,6 @@
           "category": "dining",
           "monthly_cap": 10.0,
           "is_enrollment_required": true
-        },
-        {
-          "id": "amex_delta_plat_uber_one",
-          "name": "Uber One Credit",
-          "description": "Up to $120 in annual statement credits covering Uber One \u2014 monthly or annual membership.",
-          "value_amount": 120.0,
-          "currency_symbol": "$",
-          "reset_frequency": "annual",
-          "reset_rule": "calendar_year",
-          "category": "transport",
-          "is_enrollment_required": true,
-          "notes": "Must start by 6/25/2026. Track against $120/year regardless of billing cadence."
         },
         {
           "id": "amex_delta_plat_global_entry",
@@ -1860,7 +1836,7 @@
       "name": "IHG One Rewards Premier Credit Card",
       "issuer": "Chase",
       "image_asset_name": "card_chase_ihg_premier",
-      "annual_fee": 99,
+      "annual_fee": 150,
       "benefits": [
         {
           "id": "chase_ihg_travelbank",
@@ -1901,7 +1877,7 @@
         {
           "id": "chase_ihg_premier_free_night",
           "name": "Anniversary Free Night Award",
-          "description": "Each year on your account anniversary, receive a Free Night reward valid at IHG hotels with a redemption level of up to 40,000 points per night. You can top off the certificate with points from your IHG One Rewards account to redeem at higher-category properties.",
+          "description": "Each year on your account anniversary, receive a Free Night reward valid at IHG hotels with a redemption level of up to 50,000 points per night. You can top off the certificate with points from your IHG One Rewards account to redeem at higher-category properties.",
           "value_amount": 1.0,
           "currency_symbol": "night",
           "reset_frequency": "annual",
@@ -1909,12 +1885,36 @@
           "category": "hotel",
           "is_enrollment_required": false,
           "notes": "Award is auto-deposited 4-8 weeks after your card anniversary date and expires 12 months after issuance."
+        },
+        {
+          "id": "chase_ihg_premier_food_beverage",
+          "name": "Food & Beverage Rewards",
+          "description": "Up to $100 per year in Food & Beverage Rewards for eligible dining charges on your room bill at IHG hotels ($25 per quarter).",
+          "value_amount": 100.0,
+          "currency_symbol": "$",
+          "reset_frequency": "quarterly",
+          "reset_rule": "calendar_year",
+          "category": "dining",
+          "is_enrollment_required": false,
+          "notes": "Issued as up to $25 per calendar quarter toward eligible room-billed food & beverage. Unused credit expires at quarter end."
+        },
+        {
+          "id": "chase_ihg_premier_airline",
+          "name": "Airline Statement Credit",
+          "description": "Up to $100 in statement credits each calendar year on qualifying direct airline purchases of $250 or more.",
+          "value_amount": 100.0,
+          "currency_symbol": "$",
+          "reset_frequency": "annual",
+          "reset_rule": "calendar_year",
+          "category": "airline",
+          "is_enrollment_required": false,
+          "notes": "Requires minimum $250 flight purchase directly with an airline. Available through December 31, 2027."
         }
       ],
       "perks": [
         {
-          "name": "IHG One Rewards Platinum Elite Status",
-          "description": "Automatic Platinum Elite status \u2014 complimentary upgrades when available, Premium Wi-Fi, late checkout, and 60% point bonus on stays.",
+          "name": "IHG One Rewards Gold Elite Status",
+          "description": "Automatic Gold Elite status \u2014 40% point bonus on stays, late checkout, and room upgrades when available. (Earn Platinum Elite status by spending $20,000 in a calendar year).",
           "icon": "crown.fill"
         },
         {
@@ -2479,15 +2479,15 @@
       "benefits": [
         {
           "id": "usbank_alt_reserve_travel",
-          "name": "Annual Travel & Dining Credit",
-          "description": "$325 in statement credits per year for travel, dining, takeout, and restaurant delivery purchases. Auto-redeems against eligible spend.",
+          "name": "Annual Travel Center Credit",
+          "description": "$325 in statement credits per cardmember year for purchases made through the U.S. Bank Travel Center.",
           "value_amount": 325.0,
           "currency_symbol": "$",
           "reset_frequency": "annual",
           "reset_rule": "card_anniversary",
           "category": "other",
           "is_enrollment_required": false,
-          "notes": "As of Dec 15, 2025, restricted to U.S. Bank Travel Center only. Dining no longer qualifies."
+          "notes": "Restricted exclusively to purchases made through the U.S. Bank Travel Center. Broad travel and dining purchases no longer qualify (effective Dec 15, 2025)."
         },
         {
           "id": "usbank_alt_reserve_global_entry",
@@ -3342,15 +3342,15 @@
     },
     {
       "id": "chase_ihg_premier_business",
-      "name": "IHG One Rewards Premier Business Credit Card",
+      "name": "IHG One Rewards Business Credit Card",
       "issuer": "Chase",
       "image_asset_name": "card_chase_ihg_premier_business",
-      "annual_fee": 99,
+      "annual_fee": 200,
       "benefits": [
         {
           "id": "chase_ihg_premier_biz_free_night",
           "name": "Anniversary Free Night Award",
-          "description": "Each year on your account anniversary, receive a Free Night reward valid at IHG hotels with a redemption level up to 40,000 points per night. Top off with points for higher-category properties.",
+          "description": "Each year on your account anniversary, receive a Free Night reward valid at IHG hotels with a redemption level up to 50,000 points per night. Top off with points for higher-category properties.",
           "value_amount": 1.0,
           "currency_symbol": "night",
           "reset_frequency": "annual",
@@ -3358,18 +3358,6 @@
           "category": "hotel",
           "is_enrollment_required": false,
           "notes": "Posts 4-8 weeks after card anniversary. Each award expires 12 months from issuance."
-        },
-        {
-          "id": "chase_ihg_premier_biz_travelbank",
-          "name": "United TravelBank Cash",
-          "description": "Up to $50 in annual United TravelBank Cash for eligible United flights. Posts in two $25 deposits.",
-          "value_amount": 50.0,
-          "currency_symbol": "$",
-          "reset_frequency": "semi_annual",
-          "reset_rule": "calendar_year",
-          "category": "airline",
-          "is_enrollment_required": true,
-          "notes": "Must register at ihg.com/united linking IHG card to MileagePlus."
         },
         {
           "id": "chase_ihg_premier_biz_global_entry",
@@ -3382,6 +3370,42 @@
           "category": "other",
           "is_enrollment_required": false,
           "notes": "Resets 4 years after you use it."
+        },
+        {
+          "id": "chase_ihg_biz_food_beverage",
+          "name": "Food & Beverage Rewards",
+          "description": "Up to $100 annually in Food & Beverage Rewards for dining charges billed to your room at IHG hotels ($25 per quarter).",
+          "value_amount": 100.0,
+          "currency_symbol": "$",
+          "reset_frequency": "quarterly",
+          "reset_rule": "calendar_year",
+          "category": "dining",
+          "is_enrollment_required": false,
+          "notes": "Issued as up to $25 per calendar quarter toward eligible room-billed food & beverage. Unused credit expires at quarter end."
+        },
+        {
+          "id": "chase_ihg_biz_airline",
+          "name": "Airline Statement Credit",
+          "description": "Up to $100 back each calendar year when you spend at least $250 on flight purchases made directly with an airline.",
+          "value_amount": 100.0,
+          "currency_symbol": "$",
+          "reset_frequency": "annual",
+          "reset_rule": "calendar_year",
+          "category": "airline",
+          "is_enrollment_required": false,
+          "notes": "Requires minimum $250 flight purchase directly with an airline. Available through December 31, 2027."
+        },
+        {
+          "id": "chase_ihg_biz_expensify",
+          "name": "Expensify Statement Credit",
+          "description": "Up to $100 in statement credits annually for Expensify purchases charged to the card.",
+          "value_amount": 100.0,
+          "currency_symbol": "$",
+          "reset_frequency": "annual",
+          "reset_rule": "calendar_year",
+          "category": "other",
+          "is_enrollment_required": false,
+          "notes": "Applies to qualifying Expensify subscription and service charges."
         }
       ],
       "perks": [
@@ -3434,7 +3458,7 @@
     },
     {
       "id": "chase_ihg_traveler",
-      "name": "IHG One Rewards Traveler Credit Card",
+      "name": "IHG One Rewards Credit Card",
       "issuer": "Chase",
       "image_asset_name": "card_chase_ihg_traveler",
       "annual_fee": 0,
@@ -3469,6 +3493,134 @@
           "name": "Auto Rental CDW",
           "description": "Secondary coverage on eligible rentals charged to the card.",
           "icon": "car.fill"
+        },
+        {
+          "name": "Purchase Protection",
+          "description": "Coverage for new purchases against damage or theft for 120 days.",
+          "icon": "bag.fill"
+        },
+        {
+          "name": "No Foreign Transaction Fees",
+          "description": "No fees on purchases made outside the U.S.",
+          "icon": "globe"
+        }
+      ]
+    },
+    {
+      "id": "chase_ihg_premier_select",
+      "name": "IHG One Rewards Premier Select Credit Card",
+      "issuer": "Chase",
+      "image_asset_name": "card_chase_ihg_premier_select",
+      "annual_fee": 350,
+      "benefits": [
+        {
+          "id": "chase_ihg_premier_select_free_night",
+          "name": "Anniversary Free Night Award",
+          "description": "Each year on your account anniversary, receive a Free Night reward valid at IHG hotels with a redemption level of up to 60,000 points per night. Top off with points from your IHG One Rewards account for higher-category properties.",
+          "value_amount": 1.0,
+          "currency_symbol": "night",
+          "reset_frequency": "annual",
+          "reset_rule": "card_anniversary",
+          "category": "hotel",
+          "is_enrollment_required": false,
+          "notes": "Award is auto-deposited 4-8 weeks after your card anniversary date and expires 12 months after issuance."
+        },
+        {
+          "id": "chase_ihg_premier_select_food_beverage",
+          "name": "Food & Beverage Rewards",
+          "description": "Up to $300 annually in Food & Beverage Rewards for eligible dining charges on your room bill at IHG hotels ($75 per quarter).",
+          "value_amount": 300.0,
+          "currency_symbol": "$",
+          "reset_frequency": "quarterly",
+          "reset_rule": "calendar_year",
+          "category": "dining",
+          "is_enrollment_required": false,
+          "notes": "Issued as up to $75 per calendar quarter toward eligible room-billed food & beverage. Unused credit expires at quarter end."
+        },
+        {
+          "id": "chase_ihg_premier_select_airline",
+          "name": "Airline Statement Credit",
+          "description": "Up to $200 in statement credits each calendar year on qualifying direct airline purchases of $250 or more.",
+          "value_amount": 200.0,
+          "currency_symbol": "$",
+          "reset_frequency": "annual",
+          "reset_rule": "calendar_year",
+          "category": "airline",
+          "is_enrollment_required": false,
+          "notes": "Requires qualifying direct airline purchases of $250 or more. Available through December 31, 2027."
+        },
+        {
+          "id": "chase_ihg_premier_select_travelbank",
+          "name": "United TravelBank Cash",
+          "description": "$25 deposited semi-annually to your United TravelBank account (around Jan 1 and Jul 1).",
+          "value_amount": 50.0,
+          "currency_symbol": "$",
+          "reset_frequency": "semi_annual",
+          "reset_rule": "calendar_year",
+          "category": "airline",
+          "sub_periods": [
+            {
+              "label": "H1 (Jan-Jun)",
+              "value": 25,
+              "end_date": "07-15"
+            },
+            {
+              "label": "H2 (Jul-Dec)",
+              "value": 25,
+              "end_date": "01-15"
+            }
+          ],
+          "is_enrollment_required": true,
+          "notes": "Must register at ihg.com/united linking IHG card to MileagePlus account. Credits expire quickly."
+        },
+        {
+          "id": "chase_ihg_premier_select_global_entry",
+          "name": "Global Entry / TSA PreCheck / NEXUS Credit",
+          "description": "Up to $120 statement credit for Global Entry, TSA PreCheck, or NEXUS application fees every 4 years.",
+          "value_amount": 120.0,
+          "currency_symbol": "$",
+          "reset_frequency": "quadrennial",
+          "reset_rule": "transaction_date",
+          "category": "other",
+          "is_enrollment_required": false,
+          "notes": "Resets 4 years after you use it."
+        }
+      ],
+      "perks": [
+        {
+          "name": "IHG One Rewards Platinum Elite Status",
+          "description": "Automatic Platinum Elite status \u2014 complimentary upgrades when available, Premium Wi-Fi, late checkout, and 60% point bonus on stays.",
+          "icon": "crown.fill"
+        },
+        {
+          "name": "4th Reward Night Free",
+          "description": "When you redeem points for a stay of 4+ consecutive nights at any IHG hotel, the 4th night is free.",
+          "icon": "gift.fill"
+        },
+        {
+          "name": "20 Elite Night Credits",
+          "description": "Receive 20 Elite Night Credits each calendar year toward IHG One Rewards elite status.",
+          "icon": "gift.fill"
+        },
+        {
+          "name": "20% Discount on Points Purchases",
+          "description": "Save 20% when buying IHG One Rewards points with your card.",
+          "icon": "creditcard"
+        },
+        {
+          "name": "Trip Cancellation & Interruption",
+          "description": "Up to $5,000 per person, $10,000 per trip for prepaid, non-refundable travel.",
+          "icon": "shield.lefthalf.filled"
+        },
+        {
+          "name": "Auto Rental Collision Damage Waiver",
+          "description": "Primary coverage on eligible rentals charged to the card.",
+          "icon": "car.fill"
+        },
+        {
+          "name": "Lost Luggage Reimbursement",
+          "description": "Up to $3,000 per passenger for lost checked or carry-on bags.",
+          "icon": "bag.fill"
         },
         {
           "name": "Purchase Protection",
@@ -3924,18 +4076,6 @@
           "is_enrollment_required": true
         },
         {
-          "id": "amex_delta_plat_biz_uber_one",
-          "name": "Uber One Membership Credit",
-          "description": "Up to $9.99 per month statement credit (up to $120/year) when you pay for Uber One monthly membership with the card.",
-          "value_amount": 120.0,
-          "currency_symbol": "$",
-          "reset_frequency": "monthly",
-          "reset_rule": "calendar_month",
-          "category": "transport",
-          "monthly_cap": 9.99,
-          "is_enrollment_required": true
-        },
-        {
           "id": "amex_delta_plat_biz_global_entry",
           "name": "Global Entry / TSA PreCheck Credit",
           "description": "Up to $120 credit for Global Entry or TSA PreCheck application fees every 4 years.",
@@ -4020,18 +4160,6 @@
           "reset_rule": "calendar_month",
           "category": "dining",
           "monthly_cap": 20.0,
-          "is_enrollment_required": true
-        },
-        {
-          "id": "amex_delta_reserve_biz_uber_one",
-          "name": "Uber One Membership Credit",
-          "description": "Up to $9.99 per month statement credit (up to $120/year) when you pay for Uber One monthly membership with the card.",
-          "value_amount": 120.0,
-          "currency_symbol": "$",
-          "reset_frequency": "monthly",
-          "reset_rule": "calendar_month",
-          "category": "transport",
-          "monthly_cap": 9.99,
           "is_enrollment_required": true
         },
         {
@@ -4670,12 +4798,49 @@
       "name": "Aeroplan\u00ae Credit Card",
       "issuer": "Chase",
       "image_asset_name": "card_chase_aeroplan",
-      "annual_fee": 95,
-      "benefits": [],
+      "annual_fee": 195,
+      "benefits": [
+        {
+          "id": "chase_aeroplan_air_canada",
+          "name": "Air Canada Statement Credit",
+          "description": "Up to $100 per calendar year in statement credits for eligible Air Canada purchases, split into up to $50 semi-annually (Jan\u2013Jun and Jul\u2013Dec).",
+          "value_amount": 100.0,
+          "currency_symbol": "$",
+          "reset_frequency": "semi_annual",
+          "reset_rule": "calendar_year",
+          "category": "airline",
+          "sub_periods": [
+            {
+              "label": "H1 (Jan-Jun)",
+              "value": 50,
+              "end_date": "06-30"
+            },
+            {
+              "label": "H2 (Jul-Dec)",
+              "value": 50,
+              "end_date": "12-31"
+            }
+          ],
+          "is_enrollment_required": false,
+          "notes": "Applies automatically to eligible Air Canada purchases (flights, award taxes/fees, in-flight). $50 max per half-year; unused credit does not roll over."
+        },
+        {
+          "id": "chase_aeroplan_global_entry",
+          "name": "Global Entry / TSA PreCheck / NEXUS Credit",
+          "description": "Up to $120 statement credit for Global Entry, TSA PreCheck, or NEXUS application fee every 4 years.",
+          "value_amount": 120.0,
+          "currency_symbol": "$",
+          "reset_frequency": "quadrennial",
+          "reset_rule": "transaction_date",
+          "category": "other",
+          "is_enrollment_required": false,
+          "notes": "Resets 4 years after you use it."
+        }
+      ],
       "perks": [
         {
           "name": "Aeroplan 25K Status",
-          "description": "Complimentary Aeroplan 25K elite status through the next calendar year. Includes priority airport services and Air Canada upgrade priority.",
+          "description": "Automatic Aeroplan 25K elite status for as long as your account is open and in good standing. Includes priority airport services and Air Canada upgrade priority.",
           "icon": "crown.fill"
         },
         {
@@ -4722,6 +4887,11 @@
           "name": "No Foreign Transaction Fees",
           "description": "No fees on purchases made outside the U.S.",
           "icon": "globe"
+        },
+        {
+          "name": "15% Flight Award Discount",
+          "description": "Receive a 15% discount on eligible Air Canada flight reward bookings when using Aeroplan points.",
+          "icon": "gift.fill"
         }
       ]
     },
@@ -9918,11 +10088,6 @@
           "name": "4x on Travel (Honors Members)",
           "description": "Earn 4x points on travel as an Honors Advantage member; 3x for everyone else.",
           "icon": "airplane.circle.fill"
-        },
-        {
-          "name": "Annual Fee Waiver",
-          "description": "Annual fee can be waived if you meet PenFed eligibility requirements.",
-          "icon": "creditcard"
         },
         {
           "name": "Trip Delay Reimbursement",

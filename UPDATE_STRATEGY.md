@@ -347,10 +347,10 @@ For Chase Freedom cards:
 
 | Quarter | Period | Discover it® | Chase Freedom Flex / Classic |
 |---|---|---|---|
-| Q1 2026 | Jan–Mar | Grocery stores, fitness clubs & gym memberships | Grocery stores (excl. Walmart/Target), select streaming services |
-| **Q2 2026** | **Apr–Jun** | **Restaurants and Home Improvement Stores** | **Amazon.com, Whole Foods Market, Chase Travel, Feeding America (activate by Jun 14, 2026)** |
-| Q3 2026 | Jul–Sep | *TBA — check Discover calendar July 1* | *TBA — check Chase calendar July 1* |
-| Q4 2026 | Oct–Dec | *TBA — check Discover calendar Oct 1* | *TBA — check Chase calendar Oct 1* |
+| Q1 2026 | Jan–Mar | Grocery stores, wholesale clubs, select streaming services | Dining, Norwegian Cruise Line, American Heart Association |
+| Q2 2026 | Apr–Jun | Restaurants and Home Improvement Stores | Amazon.com, Whole Foods Market, Chase Travel, Feeding America (activate by Jun 14, 2026) |
+| Q3 2026 | Jul–Sep | Gas Stations & EV Charging Stations, Transportation, Drug Stores | Gas Stations & EV Charging, Public Transit, Select Live Entertainment, United Way |
+| **Q4 2026** | **Oct–Dec** | **Restaurants, Entertainment, and Utilities** | **Grocery stores (excl. Walmart/Target), dining, American Red Cross (activate by Dec 14, 2026)** |
 
 ---
 
